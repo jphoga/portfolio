@@ -1,75 +1,85 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
+import Navbar from "./navbar";
 
 import { rhythm, scale } from "../utils/typography"
+import { root } from "postcss-selector-parser";
 
 class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
+  render() { 
+    const { data } = this.props;
+    const { location, title, children } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    const blogPath = `${__PATH_PREFIX__}/blog`
+    console.log(location.pathname);
+    console.log(title);
+    console.log(children);
+    let pageWidth = "";
+    let header = "";
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
+    if (location.pathname === rootPath ) {
+        pageWidth = 48;
     } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
+        pageWidth = 25;
+    }
+
+
+    if (location.pathname === blogPath) {
+        header = (
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={`/`}
           >
             {title}
-          </Link>
-        </h3>
-      )
-    }
+          </h1>
+        )
+      }
+
+    console.log("pageWidth: " + pageWidth);
+    console.log(`${__PATH_PREFIX__}`);
+
+    const listItems = [
+        { link: '/about', name: "about" },
+        { link: "/blog", name: "blog" },
+        { link: "/projects", name: "projects" },
+      ];
     return (
-      <div
-        style={{
+      <div>
+        <Navbar headerProps={listItems} />
+        <div style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(pageWidth),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        }}>
+            <header>{header}</header>
+            <main>{children}</main>
+            <footer>
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </footer>
+        </div>
       </div>
     )
   }
 }
 
 export default Layout
+export const query = graphql`
+  query {
+    allFile {
+      edges {
+        node {
+          relativePath
+          prettySize
+          extension
+          birthTime(fromNow: true)
+        }
+      }
+    }
+  }
+`
