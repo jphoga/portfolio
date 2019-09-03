@@ -12,6 +12,7 @@ class HomeIndex extends React.Component {
     console.log(data);
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
