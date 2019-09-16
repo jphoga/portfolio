@@ -7,7 +7,7 @@ import { root } from "postcss-selector-parser";
 
 class Layout extends React.Component {
   render() { 
-    const { data } = this.props;
+    //const { data } = this.props;
     const { location, title, children } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog`

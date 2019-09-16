@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 import styles from "./navbar.module.scss";
 
 const iconStyle = {
-  color: '#007acc',
+  //color: '#007acc',
+  color: '#4185F4',
   fontSize: '5rem',
   margin: '8px'
 };

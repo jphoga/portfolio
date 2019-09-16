@@ -23,7 +23,7 @@ class BlogLayout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `4185F4`,
             }}
             to={`/`}
           >
@@ -43,7 +43,7 @@ class BlogLayout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `4185F4`,
             }}
             to={`/`}
           >

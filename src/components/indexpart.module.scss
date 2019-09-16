@@ -4,23 +4,27 @@ $minWidth: 701px;
 $maxHeight: 600px;
 
 
-.header {
-  width: 100%;
-  margin-bottom: 24px;
-  //position: fixed;
-  //z-index: 1;
-  //border-bottom: 1px solid rgba(205, 205, 205, 0.4);
+.content {
+  width: 50%;
   box-sizing: border-box;
   background-color: white;
-  //box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
 
-  //   fix at the top of page
-  top: 0px;
-  padding: 0 1rem 0 1rem;
+.headerTitle {
+    text-align: center;
+    //border-bottom: solid #007ACC 2px;
+    border-bottom: solid #4185F4 2px;
+    margin: 30% 20% 5% 20%;
+    font-size: 24px;
+}
 
-  display: flex;
-  // to have logo on the left and links on the right
-  justify-content: start;
+.mainContent {
+  text-align: center;
+
+}
+
+.sidePicture {
+    height: 500px;
 }
 
 @media (max-width: $maxWidth) {
