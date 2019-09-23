@@ -42,6 +42,7 @@ class Layout extends React.Component {
     console.log(`${__PATH_PREFIX__}`);
 
     const listItems = [
+        { link: '/', name: "home" },      
         { link: '/about', name: "about" },
         { link: "/blog", name: "blog" },
         { link: "/projects", name: "projects" },

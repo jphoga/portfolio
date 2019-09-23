@@ -20,7 +20,7 @@ $maxHeight: 600px;
 
   display: flex;
   // to have logo on the left and links on the right
-  justify-content: start;
+  justify-content: space-between;
 }
 
 @media (max-width: $maxWidth) {
@@ -31,6 +31,12 @@ $maxHeight: 600px;
 @media (min-width: $minWidth) and (min-height: $maxHeight) {
   .header {
     height: 72px;
+  }
+}
+
+@media (max-width: $smallerDevicesMaxWidth) {
+  .header-icon {
+    font-size: 12px;
   }
 }
 // headerMenu
@@ -47,6 +53,13 @@ $maxHeight: 600px;
   display: block;
   text-decoration: none;
 }
+
+.iconStyle {
+  color: #4185F4;
+  font-size: 5rem;
+  margin: 8px;
+}
+
 @media (max-width: $maxWidth) {
   .headerMenu li a {
     padding: 3px 10px 5px 0;
