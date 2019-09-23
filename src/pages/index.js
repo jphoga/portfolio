@@ -5,7 +5,10 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import IndexPart from "../components/index-part"
+import IndexIntro from "../components/index-introduction"
+import IndexAbout from "../components/index-about"
+import IndexProjects from "../components/index-projects"
+import IndexBlog from "../components/index-blog"
 
 class HomeIndex extends React.Component {
   render() {
@@ -20,10 +23,10 @@ class HomeIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         {/* <Bio /> */}
-        <IndexPart position={"1"}></IndexPart>
-        <IndexPart position={"2"}></IndexPart>
-        <IndexPart position={"3"}></IndexPart>
-        <IndexPart position={"4"}></IndexPart>
+        <IndexIntro></IndexIntro>
+        <IndexAbout></IndexAbout>
+        <IndexProjects></IndexProjects>
+        <IndexBlog></IndexBlog>
         
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

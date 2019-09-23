@@ -17,9 +17,9 @@ class Navbar extends React.Component {
             </li>
           ))}
         </ul>
-        <Link style={{ boxShadow: `none` }} className={styles.iconStyle} to={'/'}>
+        {/* <Link style={{ boxShadow: `none` }} className={styles.iconStyle} to={'/'}>
           <i className="fas fa-meteor"></i>
-        </Link>
+        </Link> */}
       </header>
     );
   }

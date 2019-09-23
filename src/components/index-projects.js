@@ -7,27 +7,18 @@ import { rhythm, scale } from "../utils/typography"
 
 const IndexPart = (props) => {
   const query = useStaticQuery(graphql`
-    fragment squareImage on File {
+    fragment squareImage3 on File {
         childImageSharp {
-          fixed(width: 1400, height: 700) {
+          fixed(width: 1400, height: 900) {
             src
             originalName
           }
         }
     }, 
     query {
-        image1: file(relativePath: { eq: "undraw_personal_site_xyd1.png" }) {
-          ...squareImage
-        }
-        image2: file(relativePath: { eq: "undraw_insert_block_efyb.png" }) {
-          ...squareImage
-        }
         image3: file(relativePath: { eq: "undraw_world_9iqb.png" }) {
-          ...squareImage
+          ...squareImage3
         }
-        image4: file(relativePath: { eq: "undraw_mobile_life_381t.png" }) {
-            ...squareImage
-          }
       site {
         siteMetadata {
           author
@@ -39,15 +30,12 @@ const IndexPart = (props) => {
     }, 
     `
   )
-  const position = props.position;
-  const imageData = `query.image${position}.childImageSharp.fixed`;
 
   return (
     <div
       style={{
         display: `flex`,
-        marginTop: rhythm(2.5),
-        marginBottom: rhythm(7.5),
+        marginBottom: rhythm(3.5),
       }}
     >
       <div className={styles.content}>
@@ -59,17 +47,17 @@ const IndexPart = (props) => {
         </main>
       </div>
       <Image
-          fixed={query.image1.childImageSharp.fixed}
-          style={{
-            marginLeft: rhythm(1 / 4),
-            marginBottom: 0,
-            minWidth: 800,
-            minHeight: 400,
-          }}
-          imgStyle={{
-            //borderRadius: `50%`,
-          }}
-        />
+        fixed={query.image3.childImageSharp.fixed}
+        style={{
+          marginLeft: rhythm(1 / 4),
+          marginBottom: 0,
+          minWidth: 600,
+          minHeight: 400,
+        }}
+        imgStyle={{
+          //borderRadius: `50%`,
+        }}
+      />
     </div>
   )
 }
