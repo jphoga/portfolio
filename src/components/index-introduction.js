@@ -19,17 +19,22 @@ const IndexPart = (props) => {
       image1: file(relativePath: { eq: "undraw_adventure_4hum.png" }) {
         ...squareImage1
       }
-    site {
-      siteMetadata {
-        author
-        social {
-          instagram
+      site {
+        siteMetadata {
+          author
+          social {
+            instagram
+            linkedin
+            github
+            email
+          }
         }
       }
-    }
-  },
+    },
     `
   )
+
+  const { author, social } = query.site.siteMetadata;
 
   return (
     <div
@@ -47,6 +52,22 @@ const IndexPart = (props) => {
         <main className={styles.mainContent}>
           CONSULTANT | FULL-STACK DEVELOPER
         </main>
+        <footer style={{
+          display: `flex`,
+          justifyContent: `center`,
+          marginBottom: rhythm(2.5),
+          fontSize: `3rem`,
+          }}>
+          <a href={social.github}>
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href={social.linkedin}>
+          <i class="fab fa-linkedin"></i>
+          </a>
+          <a href={social.email}>
+            <i class="fas fa-at"></i>
+          </a>
+        </footer>
       </div>
       <Image
           fixed={query.image1.childImageSharp.fixed}

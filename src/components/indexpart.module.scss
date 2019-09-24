@@ -11,6 +11,7 @@ $maxHeight: 600px;
   width: 40%;
   box-sizing: border-box;
   background-color: white;
+  margin-right: 10%;
 }
 
 @media (max-width: $maxWidth) {
@@ -19,6 +20,10 @@ $maxHeight: 600px;
     box-sizing: border-box;
     background-color: white;
   }
+}
+
+.noBorderBottom {
+  border-bottom: none !important;
 }
 
 @media (max-width: $maxWidth) {
@@ -32,12 +37,11 @@ $maxHeight: 600px;
   }
 }
 
-
 .headerTitle {
     text-align: center;
     //border-bottom: solid #007ACC 2px;
     border-bottom: solid #4185F4 2px;
-    margin: 24% 20% 5% 20%;
+    margin: 34% 20% 5% 20%;
     font-size: 24px;
 }
 
@@ -53,6 +57,7 @@ $maxHeight: 600px;
 
 .aboutContainer {
   margin-top: 80px;
+  margin-left: 10%;
 }
 
 .aboutTitle {

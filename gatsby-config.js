@@ -6,6 +6,9 @@ module.exports = {
     siteUrl: `https://google.com/`,
     social: {
       instagram: `jph2345`,
+      github: `https://github.com/jphoga`,
+      linkedin: `https://www.linkedin.com/in/jan-paul-hoga`,
+      email: `mailto:janpaulhoga@gmail.com`,
     },
   },
   plugins: [
