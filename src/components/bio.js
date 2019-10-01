@@ -25,7 +25,18 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            instagram
+            github {
+              link
+              icon
+            }
+            linkedin {
+              link
+              icon
+            }
+            email {
+              link
+              icon
+            }
           }
         }
       }
@@ -56,8 +67,8 @@ const Bio = () => {
       <p>
         Written by <strong>{author}</strong> who lives and works in Tokyo.
         {` `}
-        <a href={`https://instagram.com/${social.instagram}`}>
-          Follow me on Instagram
+        <a href={`https://instagram.com/${social.linkedin.link}`}>
+          Follow me on LinkedIn
         </a>
       </p>
     </div>

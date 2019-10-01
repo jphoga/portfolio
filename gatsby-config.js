@@ -5,10 +5,18 @@ module.exports = {
     description: `A blog about my journey through web-tech and machine learning.`,
     siteUrl: `https://google.com/`,
     social: {
-      instagram: `jph2345`,
-      github: `https://github.com/jphoga`,
-      linkedin: `https://www.linkedin.com/in/jan-paul-hoga`,
-      email: `mailto:janpaulhoga@gmail.com`,
+      github: {
+        link: `https://github.com/jphoga`,
+        icon: `fab fa-github-square`
+      },
+      linkedin: {
+       link: `https://www.linkedin.com/in/jan-paul-hoga`,
+       icon: `fab fa-linkedin` 
+      },
+      email: {
+       link: `mailto:janpaulhoga@gmail.com`,
+       icon: `fas fa-at`
+      },
     },
   },
   plugins: [

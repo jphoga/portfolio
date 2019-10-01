@@ -2,6 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
+import { Link } from "gatsby";
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -23,10 +24,18 @@ const IndexPart = (props) => {
         siteMetadata {
           author
           social {
-            instagram
-            linkedin
-            github
-            email
+            github {
+              link
+              icon
+            }
+            linkedin {
+              link
+              icon
+            }
+            email {
+              link
+              icon
+            }
           }
         }
       }
@@ -52,22 +61,40 @@ const IndexPart = (props) => {
         <main className={styles.mainContent}>
           CONSULTANT | FULL-STACK DEVELOPER
         </main>
-        <footer style={{
+        <ul style={{
+          display: `flex`,
+          justifyContent: `center`,
+          marginBottom: rhythm(2.5),
+          fontSize: `2.5rem`,
+          }}>
+          {Object.keys(social).map((keyName, i) => (
+              <a style={{ boxShadow: `none`, margin: `0.5rem` }} target="_blank" href={social[keyName].link}>
+                <i className={social[keyName].icon} ></i>
+              </a>
+            
+          ))}
+        </ul>
+
+{/*       
+
+  
+
+ <footer style={{
           display: `flex`,
           justifyContent: `center`,
           marginBottom: rhythm(2.5),
           fontSize: `3rem`,
           }}>
           <a href={social.github}>
-            <i class="fab fa-github-square"></i>
+            <i className="fab fa-github-square"></i>
           </a>
           <a href={social.linkedin}>
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
           </a>
           <a href={social.email}>
-            <i class="fas fa-at"></i>
+            <i className="fas fa-at"></i>
           </a>
-        </footer>
+        </footer>*/}
       </div>
       <Image
           fixed={query.image1.childImageSharp.fixed}

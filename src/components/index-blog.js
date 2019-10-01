@@ -22,8 +22,19 @@ const IndexPart = (props) => {
       site {
         siteMetadata {
           author
-          social {
-            instagram
+         social {
+            github {
+              link
+              icon
+            }
+            linkedin {
+              link
+              icon
+            }
+            email {
+              link
+              icon
+            }
           }
         }
       }
