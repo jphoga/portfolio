@@ -2,7 +2,6 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
-import { Link } from "gatsby";
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -10,7 +9,7 @@ const IndexPart = (props) => {
   const query = useStaticQuery(graphql` 
     fragment squareImage1 on File {
       childImageSharp {
-        fixed(width: 1500, height: 1000) {
+        fixed(width: 800, height: 650) {
           src
           originalName
         }
@@ -68,7 +67,7 @@ const IndexPart = (props) => {
           fontSize: `2.5rem`,
           }}>
           {Object.keys(social).map((keyName, i) => (
-              <a style={{ boxShadow: `none`, margin: `0.5rem` }} target="_blank" href={social[keyName].link}>
+              <a style={{ boxShadow: `none`, margin: `0.5rem`, color: '#4285f4' }} target="_blank" href={social[keyName].link}>
                 <i className={social[keyName].icon} ></i>
               </a>
             
@@ -101,8 +100,8 @@ const IndexPart = (props) => {
           style={{
             marginLeft: rhythm(1 / 4),
             marginBottom: 0,
-            minWidth: 600,
-            minHeight: 500,
+            width: '32rem',
+            height: '32rem',
           }}
           imgStyle={{
             //borderRadius: `50%`,

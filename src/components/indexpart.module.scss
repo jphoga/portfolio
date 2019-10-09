@@ -11,7 +11,7 @@ $maxHeight: 600px;
   width: 40%;
   box-sizing: border-box;
   background-color: white;
-  margin-right: 10%;
+  //margin-right: 10%;
 }
 
 @media (max-width: $maxWidth) {
@@ -58,23 +58,35 @@ $maxHeight: 600px;
 
 .aboutContainer {
   margin-top: 80px;
-  margin-left: 10%;
+  //margin-left: 10%;
+  width: 50%;
+  text-align: justify;
+}
+@media (max-width: $maxWidth) {
+  .aboutContainer {
+    padding: 3px 5px 5px 0;
+    width: 100%;
+  }
 }
 
 .aboutTitle {
   text-align: center;
   border-bottom: solid #4185F4 2px;
-  margin: 8% 20% 5% 20%;
+  margin: 8% 38% 5% 38%;
   font-size: 24px;
+}
+@media (max-width: $maxWidth) {
+  .aboutTitle {
+    margin: 8% 20% 5% 20%;
+  }
+  .aboutContainer {
+    margin-top: 0;
+  }
 }
 
 .aboutContent {
   margin: 0 3rem 0 3rem;
-  width: 30rem;
-}
-
-.sidePicture {
-    height: 500px;
+  //width: 16rem;
 }
 
 

@@ -44,18 +44,20 @@ const IndexPart = (props) => {
 
   return (
     <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(3.5),
-      }}
+    style={{
+      display: `flex`,
+      flexWrap: 'wrap',
+      // marginTop: rhythm(2.5),
+      marginBottom: rhythm(3.5),
+    }}
     >
       <Image
         fixed={query.image4.childImageSharp.fixed}
         style={{
           marginLeft: rhythm(1 / 4),
           marginBottom: 0,
-          minWidth: 800,
-          minHeight: 600,
+          mwidth: '32rem',
+          height: '32rem',
         }}
         imgStyle={{
           //borderRadius: `50%`,

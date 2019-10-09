@@ -46,12 +46,14 @@ const IndexPart = (props) => {
     <div
       style={{
         display: `flex`,
+        flexWrap: 'wrap',
+        // marginTop: rhythm(2.5),
         marginBottom: rhythm(3.5),
       }}
     >
       <div className={styles.content}>
         <header className={styles.header}>
-          <div className={styles.headerTitle}>JAN PAUL HOGA</div>
+          <div className={styles.headerTitle}>Some projects I have done so far</div>
         </header>
         <main className={styles.mainContent}>
           <div className={styles.profile}>CONSULTANT | FULL-STACK DEVELOPER</div>
@@ -62,8 +64,8 @@ const IndexPart = (props) => {
         style={{
           marginLeft: rhythm(1 / 4),
           marginBottom: 0,
-          minWidth: 600,
-          minHeight: 400,
+          width: '32rem',
+          height: '32rem',
         }}
         imgStyle={{
           //borderRadius: `50%`,
