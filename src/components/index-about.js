@@ -68,7 +68,7 @@ const IndexPart = (props) => {
           }}
         />
       <div className={styles.aboutContainer}>
-      <Link style={{ boxShadow: `none`, color: '#4285f4' }} to='/about'>
+      <Link style={{ boxShadow: `none` }} to='/about'>
         <header className={styles.aboutTitle}>
           About me
         </header>
@@ -77,7 +77,7 @@ const IndexPart = (props) => {
           <p>Hi, my name is Jan. I am a German switching between 
           life in Germany and Japan. I am very lucky that while working as a consultant 
           I can still follow my passion in programming and technology.  
-          <a style={{ boxShadow: `none`, color: '#4285f4' }} target='_blank' href={linkToLinkedin}>
+          <a style={{ boxShadow: `none`}} target='_blank' href={linkToLinkedin}>
             {hitMe}
           </a>  </p>
         </main>

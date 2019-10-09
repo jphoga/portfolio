@@ -67,7 +67,7 @@ const IndexPart = (props) => {
           fontSize: `2.5rem`,
           }}>
           {Object.keys(social).map((keyName, i) => (
-              <a style={{ boxShadow: `none`, margin: `0.5rem`, color: '#4285f4' }} target="_blank" href={social[keyName].link}>
+              <a style={{ boxShadow: `none`, margin: `0.5rem` }} target="_blank" href={social[keyName].link}>
                 <i className={social[keyName].icon} ></i>
               </a>
             
