@@ -1,6 +1,7 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: Object Detection on Edge
+date: "2019-09-06T23:46:37.121Z"
+description: "Detecting objects while driving on a highway."
 ---
 
 Wow! I love blogging so much already.

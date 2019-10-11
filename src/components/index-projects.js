@@ -18,7 +18,7 @@ const IndexPart = (props) => {
         }
     }, 
     query {
-        image3: file(relativePath: { eq: "undraw_post_online_dkuk.png" }) {
+        image3: file(relativePath: { eq: "undraw_to_the_moon_v1mv.png" }) {
           ...squareImage3
         }
       site {
@@ -60,48 +60,41 @@ const IndexPart = (props) => {
          </header>
        </Link>  
        <main className={styles.projectsContent}>
-       <ul>
+       
         {posts.node.map(({ node }) => {
                   const title = node.frontmatter.title || node.fields.slug
-                  return (
-                    <article key={node.fields.slug}>
-                      <header>
-                        <h3
+                  return ( 
+                      <div
+                        key={node.fields.slug}
+                        style={{
+                          marginLeft: `1rem`
+                        }}>
+                        <h4
                           style={{
-                            marginBottom: rhythm(1 / 4),
+                            marginBottom: rhythm(1 / 4)
                           }}
                         >
                           <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                             {title}
                           </Link>
-                        </h3>
-                        <small>{node.frontmatter.date}</small>
-                      </header>
-                      <section>
+                        </h4>
+                        <small>
                         <p
                           dangerouslySetInnerHTML={{
                             __html: node.frontmatter.description || node.excerpt,
                           }}
                         />
-                      </section>
-                    </article>
+                      </small>
+                      </div>
                   )
                 })}
-       </ul>
+       
        </main>
      </div>
 
       <Image
         fixed={query.image3.childImageSharp.fixed}
-        style={{
-          marginLeft: rhythm(1 / 4),
-          marginBottom: 0,
-          width: '24rem',
-          height: '24rem',
-        }}
-        imgStyle={{
-          //borderRadius: `50%`,
-        }}
+        className={styles.projectImage}
       />
     </div>
   )

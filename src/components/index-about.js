@@ -10,14 +10,14 @@ const IndexPart = (props) => {
   const query = useStaticQuery(graphql`
   fragment squareImage2 on File {
     childImageSharp {
-      fixed(width: 1300, height: 1300) {
+      fixed(width: 1800, height: 1300) {
         src
         originalName
       }
     }
   }, 
   query {
-    image2: file(relativePath: { eq: "undraw_world_9iqb.png" }) {
+    image2: file(relativePath: { eq: "undraw_Mobile_application_mr4r (2).png" }) {
       ...squareImage2
     }
   site {
@@ -51,18 +51,12 @@ const IndexPart = (props) => {
     style={{
       display: `flex`,
       flexWrap: 'wrap-reverse',
-      // marginTop: rhythm(2.5),
       marginBottom: rhythm(2),
     }}
     >
       <Image
           fixed={query.image2.childImageSharp.fixed}
-          style={{
-            marginLeft: rhythm(1 / 4),
-            marginBottom: 0,
-            width: '32rem',
-            height: '32rem',
-          }}
+          className={styles.aboutImage}
           imgStyle={{
             //borderRadius: `50%`,
           }}

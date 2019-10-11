@@ -9,14 +9,14 @@ const IndexPart = (props) => {
   const query = useStaticQuery(graphql` 
     fragment squareImage1 on File {
       childImageSharp {
-        fixed(width: 800, height: 650) {
+        fixed(width: 900, height: 650) {
           src
           originalName
         }
       }
   }, 
   query {
-      image1: file(relativePath: { eq: "undraw_adventure_4hum.png" }) {
+      image1: file(relativePath: { eq: "undraw_sunlight.png" }) {
         ...squareImage1
       }
       site {
@@ -64,10 +64,10 @@ const IndexPart = (props) => {
           display: `flex`,
           justifyContent: `center`,
           marginBottom: rhythm(2.5),
-          fontSize: `2.5rem`,
+          fontSize: `3.3rem`,
           }}>
           {Object.keys(social).map((keyName, i) => (
-              <a style={{ boxShadow: `none`, margin: `0.5rem` }} target="_blank" href={social[keyName].link}>
+              <a style={{ boxShadow: `none`, marginLeft: `1rem`, marginRight: `1rem` }} target="_blank" href={social[keyName].link}>
                 <i className={social[keyName].icon} ></i>
               </a>
             
@@ -97,16 +97,7 @@ const IndexPart = (props) => {
       </div>
       <Image
           fixed={query.image1.childImageSharp.fixed}
-          style={{
-            marginLeft: rhythm(1 / 4),
-            //marginTop: '6rem',
-            marginBottom: 0,
-            width: '26rem',
-            height: '26rem',
-          }}
-          imgStyle={{
-            //borderRadius: `50%`,
-          }}
+          className={styles.introImage}
         />
     </div>
   )
