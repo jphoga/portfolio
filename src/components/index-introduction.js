@@ -50,7 +50,7 @@ const IndexPart = (props) => {
         display: `flex`,
         flexWrap: 'wrap',
         // marginTop: rhythm(2.5),
-        marginBottom: rhythm(3.5),
+        marginBottom: rhythm(2),
       }}
     >
       <div className={styles.introContainer}>
@@ -99,9 +99,10 @@ const IndexPart = (props) => {
           fixed={query.image1.childImageSharp.fixed}
           style={{
             marginLeft: rhythm(1 / 4),
+            //marginTop: '6rem',
             marginBottom: 0,
-            width: '32rem',
-            height: '32rem',
+            width: '26rem',
+            height: '26rem',
           }}
           imgStyle={{
             //borderRadius: `50%`,

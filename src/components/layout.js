@@ -58,7 +58,7 @@ class Layout extends React.Component {
         }}>
             <header>{header}</header>
             <main>{children}</main>
-            <footer>
+            <footer style={{ textAlign: `center`}}>
             {new Date().getFullYear()}, Built by <strong>Jan Paul Hoga</strong> with
             {` `}
             Gatsby & React

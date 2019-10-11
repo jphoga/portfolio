@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Jan's Tech-Blog`,
+    title: `Jan's Projects`,
     author: `Jan Paul Hoga`,
-    description: `A blog about my journey through web-tech and machine learning.`,
+    description: `Some projects I did at work and at the Lewagon bootcamp.`,
     siteUrl: `https://google.com/`,
     social: {
       github: {
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/project`,
+        name: `project`,
       },
     },
     {

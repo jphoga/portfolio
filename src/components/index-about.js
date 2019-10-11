@@ -17,7 +17,7 @@ const IndexPart = (props) => {
     }
   }, 
   query {
-    image2: file(relativePath: { eq: "undraw_post_online_dkuk.png" }) {
+    image2: file(relativePath: { eq: "undraw_world_9iqb.png" }) {
       ...squareImage2
     }
   site {
@@ -44,7 +44,7 @@ const IndexPart = (props) => {
   )
 
   const linkToLinkedin = ' ' + query.site.siteMetadata.social.linkedin.link;
-  const hitMe = ' Hit me up!'; 
+  const hitMe = ' Hit me up on Linkedin!'; 
 
   return (
     <div
@@ -52,7 +52,7 @@ const IndexPart = (props) => {
       display: `flex`,
       flexWrap: 'wrap-reverse',
       // marginTop: rhythm(2.5),
-      marginBottom: rhythm(3.5),
+      marginBottom: rhythm(2),
     }}
     >
       <Image
@@ -77,7 +77,7 @@ const IndexPart = (props) => {
           <p>Hi, my name is Jan. I am a German switching between 
           life in Germany and Japan. I am very lucky that while working as a consultant 
           I can still follow my passion in programming and technology.  
-          <a style={{ boxShadow: `none`}} target='_blank' href={linkToLinkedin}>
+          <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
             {hitMe}
           </a>  </p>
         </main>
