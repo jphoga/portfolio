@@ -52,6 +52,7 @@ const IndexPart = (props) => {
         // marginTop: rhythm(2.5),
         marginBottom: rhythm(2),
       }}
+      className={styles.partContainer}
     >
      <div className={styles.projectsContainer}>
        <Link style={{ boxShadow: `none` }} to='/projects'>
@@ -67,7 +68,8 @@ const IndexPart = (props) => {
                       <div
                         key={node.fields.slug}
                         style={{
-                          marginLeft: `1rem`
+                          marginLeft: `1rem`,
+                          marginBottom: `-2rem`
                         }}>
                         <h4
                           style={{
@@ -78,13 +80,13 @@ const IndexPart = (props) => {
                             {title}
                           </Link>
                         </h4>
-                        <small>
+                        <section>
                         <p
                           dangerouslySetInnerHTML={{
                             __html: node.frontmatter.description || node.excerpt,
                           }}
                         />
-                      </small>
+                      </section>
                       </div>
                   )
                 })}

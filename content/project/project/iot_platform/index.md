@@ -1,6 +1,6 @@
 ---
 title: Data driven Manufacturing
-date: "2015-05-28T22:40:32.169Z"
+date: "2019-03-28T22:40:32.169Z"
 description: IoT platform to visualize factory sensor data.
 ---
 

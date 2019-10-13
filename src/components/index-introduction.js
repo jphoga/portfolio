@@ -50,7 +50,8 @@ const IndexPart = (props) => {
         display: `flex`,
         flexWrap: 'wrap',
         // marginTop: rhythm(2.5),
-        marginBottom: rhythm(2),
+        marginTop: rhythm(4),
+        marginBottom: rhythm(4),
       }}
     >
       <div className={styles.introContainer}>

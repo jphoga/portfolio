@@ -2,57 +2,42 @@ $smallerDevicesMaxWidth: 360px;
 $maxWidth: 700px;
 $minWidth: 701px;
 $maxHeight: 600px;
+$tabletMaxWidth: 1100px;
 
+/* ####### */
+// General
+/* ####### */
 
+.partContainer {
+  margin-bottom: 10rem;
+}
 
-// For Intro-Part
+//##### For Intro-Part ######
 
 .introContainer {
-  width: 30%;
+  width: 32%;
+  margin-left: 5%;
   margin-right: 10rem;
   box-sizing: border-box;
   background-color: white;
   //margin-right: 10%;
 }
 
-@media (max-width: $maxWidth) {
-  .introContainer {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: white;
-  }
-}
-
 .noBorderBottom {
   border-bottom: none !important;
 }
 
-@media (max-width: $maxWidth) {
-  .header {
-    height: 54px;
-  }
-}
-@media (min-width: $minWidth) and (min-height: $maxHeight) {
-  .header {
-    height: 72px;
-  }
-}
-
 .headerTitle {
-    text-align: center;
-    //border-bottom: solid #007ACC 2px;
-    border-bottom: solid #2685D0 2px;
-    margin: 24% 5% 3% 5%;
-    font-size: 28px;
-}
-@media (max-width: $maxWidth) {
-  .headerTitle {
-    font-size: 20px;
-  }
+  text-align: center;
+  border-bottom: solid #2685D0 2px;
+  //border-bottom: solid #007ACC 2px;
+  margin: 32% 10% 3% 10%;
+  font-size: 32px;
 }
 
 .mainContent {
   text-align: center;
+  font-size: 18px;
 }
 
 .introImage {
@@ -61,10 +46,60 @@ $maxHeight: 600px;
   width: 36rem;
   height: 28rem;
 }
-@media (max-width: $maxWidth) {
+
+@media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
+  .introContainer {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+  }
+  .header {
+    height: 54px;
+  }
+  .headerTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 24%;
+    margin-right: 24%;
+  }
   .introImage {
     width: 26rem;
     height: 18rem;
+    text-align: center;
+    margin-bottom: -20%;
+    margin: 0 30% -16% 30%;
+  }
+}
+
+@media (max-width: $maxWidth) {
+  .introContainer {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .header {
+    height: 54px;
+  }
+  .headerTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  .introImage {
+    width: 26rem;
+    height: 18rem;
+    text-align: center;
+    margin-bottom: -20%;
+  }
+}
+
+@media (min-width: $minWidth) and (min-height: $maxHeight) {
+  .header {
+    height: 72px;
   }
 }
 
@@ -74,46 +109,26 @@ $maxHeight: 600px;
   text-align: center;
 }
 
-.aboutContainer {
-  margin-top: 80px;
-  //margin-left: 10%;
-  width: 50%;
-  text-align: justify;
-}
-@media (max-width: $maxWidth) {
-  .aboutContainer {
-    padding: 3px 5px 5px 0;
-    width: 100%;
-  }
-}
-
 .aboutImage{
   margin-left: rhythm(1 / 4);
   margin-bottom: 0;
   width: 33rem;
   height: 26rem;
 }
-@media (max-width: $maxWidth) {
-  .aboutImage {
-    width: 26rem;
-    height: 18rem;
-  }
+
+.aboutContainer {
+  margin-top: 80px;
+  margin-left: 4%;
+  width: 50%;
+  text-align: justify;
 }
 
 .aboutTitle {
-  text-align: center;
+  text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 8% 8% 1% 8%;
+  margin: 4% 8% 4% 7%;
   font-size: 28px;
   font-weight: bold;
-}
-@media (max-width: $maxWidth) {
-  .aboutTitle {
-    margin: 8% 20% 5% 20%;
-  }
-  .aboutContainer {
-    margin-top: 0;
-  }
 }
 
 .aboutContent {
@@ -121,39 +136,73 @@ $maxHeight: 600px;
   //width: 16rem;
 }
 
+@media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
+  .aboutImage {
+    width: 26rem;
+    height: 18rem;
+    margin-bottom: -20%;
+    margin: 0 30% -16% 30%;
+  }
+  .aboutContainer {
+    padding: 3px 5px 5px 0;
+    width: 100%;
+    margin-top: 0;
+  }
+  .aboutTitle {
+    margin: 8% 20% 5% 20%;
+    text-align: center;
+  }
+  .aboutContainer {
+    margin-top: 0;
+    //text-align: center;
+  }
+}
+
+@media (max-width: $maxWidth) {
+  .aboutImage {
+    width: 26rem;
+    height: 18rem;
+    margin-bottom: -20%;
+  }
+  .aboutContainer {
+    padding: 3px 5px 5px 0;
+    width: 100%;
+    margin-top: 0;
+  }
+  .aboutTitle {
+    margin: 8% 20% 5% 20%;
+    text-align: center;
+  }
+  .aboutContainer {
+    margin-top: 0;
+    //text-align: center;
+  }
+}
+
+
 // For Projects-Part
 
 
 .projectsContainer {
   margin-top: 8px;
-  margin-left: 4%;
+  margin-left: 0;
+  margin-right: 4%;
   width: 40%;
   text-align: justify;
 }
-@media (max-width: $maxWidth) {
-  .projectsContainer {
-    padding: 3px 5px 5px 0;
-    width: 80%;
-  }
-}
 
 .projectsTitle {
-  //text-align: center;
+  text-align: right;
   //border-bottom: solid #2685D0 2px;
-  margin: 8% 8% 1% 5%;
+  margin: 8% 4% -4% 5%;
   font-size: 28px;
   font-weight: bold;
-}
-@media (max-width: $maxWidth) {
-  .projectsTitle {
-    margin: 8% 20% 5% 20%;
-    text-align: center;
-  }
 }
 
 .projectsContent {
   margin: 0 1rem 0 1rem;
   //width: 16rem;
+  text-align: right;
 }
 
 .projectImage{
@@ -162,47 +211,41 @@ $maxHeight: 600px;
   width: 35rem;
   height: 26rem;
 }
-@media (max-width: $maxWidth) {
+
+@media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
+  .projectsContainer {
+    padding: 3px 5px 5px 0;
+    width: 100%;
+  }
+  .projectsTitle {
+    margin: 8% 20% -4% 20%;
+    text-align: center;
+  }
+  .projectsContent {
+    text-align: left;
+    margin: 8% 24% -4% 24%;
+  }
   .projectImage {
     width: 20rem;
     height: 20rem;
+    margin: 8% 20% -4% 30%;
   }
 }
 
-
-
-// headerMenu
-.headerMenu {
-  list-style: none;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.headerMenu li a {
-  display: block;
-  text-decoration: none;
-}
 @media (max-width: $maxWidth) {
-  .headerMenu li a {
-    padding: 3px 10px 5px 0;
-    font-size: 16px;
-  }
-}
-@media (max-width: $smallerDevicesMaxWidth) {
-  .headerMenu li a {
+  .projectsContainer {
     padding: 3px 5px 5px 0;
-    font-size: 13px;
+    width: 100%;
   }
-  .fas {
-    font-size: 13px;
+  .projectsTitle {
+    margin: 8% 20% -4% 20%;
+    text-align: center;
   }
-}
-@media (min-width: $minWidth) {
-  .headerMenu li a {
-    padding: 15px 15px;
-    font-size: 22px;
+  .projectsContent {
+    text-align: left;
+  }
+  .projectImage {
+    width: 20rem;
+    height: 20rem;
   }
 }
