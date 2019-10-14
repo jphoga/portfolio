@@ -44,7 +44,7 @@ class Layout extends React.Component {
     const listItems = [
         { link: '/', name: "home" },      
         { link: '/about', name: "about" },
-        { link: "/blog", name: "blog" },
+        // { link: "/blog", name: "blog" },
         { link: "/projects", name: "projects" },
       ];
     return (

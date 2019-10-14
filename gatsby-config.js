@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Jan's Projects`,
     author: `Jan Paul Hoga`,
-    description: `Some projects I did at work and at the Lewagon bootcamp.`,
+    description: `Some projects I did at work and at the Le Wagon bootcamp.`,
     siteUrl: `https://google.com/`,
     social: {
       github: {
@@ -77,7 +77,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Jan's Portfolio`,
-        short_name: `Jan's Blog`,
+        short_name: `Jan's Portfolio`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

@@ -31,8 +31,10 @@ $tabletMaxWidth: 1100px;
   text-align: center;
   border-bottom: solid #2685D0 2px;
   //border-bottom: solid #007ACC 2px;
-  margin: 32% 10% 3% 10%;
-  font-size: 32px;
+  margin: 20% 6% 3% 6%;
+  font-size: 45px;
+  font-family: 'Montserat';
+  font-weight: bold;
 }
 
 .mainContent {
@@ -42,9 +44,9 @@ $tabletMaxWidth: 1100px;
 
 .introImage {
   margin-left: rhythm(1 / 4);
-  margin-bottom: 0;
-  width: 36rem;
-  height: 28rem;
+  width: 40rem;
+  height: 36rem;
+  margin-top: -140px;
 }
 
 @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
@@ -59,8 +61,9 @@ $tabletMaxWidth: 1100px;
     height: 54px;
   }
   .headerTitle {
-    font-size: 28px;
+    font-size: 48px;
     font-weight: bold;
+    font-family: 'Montserat';
     margin-top: 0;
     margin-left: 24%;
     margin-right: 24%;
@@ -113,7 +116,7 @@ $tabletMaxWidth: 1100px;
   margin-left: rhythm(1 / 4);
   margin-bottom: 0;
   width: 33rem;
-  height: 26rem;
+  height: 32rem;
 }
 
 .aboutContainer {
@@ -126,7 +129,7 @@ $tabletMaxWidth: 1100px;
 .aboutTitle {
   text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 4% 8% 4% 7%;
+  margin: 16% 8% 4% 7%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -207,6 +210,7 @@ $tabletMaxWidth: 1100px;
 
 .projectImage{
   margin-left: 2rem;
+  margin-top: 3%;
   margin-bottom: 0;
   width: 35rem;
   height: 26rem;
@@ -223,7 +227,7 @@ $tabletMaxWidth: 1100px;
   }
   .projectsContent {
     text-align: left;
-    margin: 8% 24% -4% 24%;
+    margin: 8% 16% -4% 26%;
   }
   .projectImage {
     width: 20rem;
@@ -243,6 +247,7 @@ $tabletMaxWidth: 1100px;
   }
   .projectsContent {
     text-align: left;
+    margin: 8% 10% 1% 14%;
   }
   .projectImage {
     width: 20rem;
