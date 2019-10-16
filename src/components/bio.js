@@ -68,7 +68,7 @@ const Bio = () => {
         Written by <strong>{author}</strong> who lives and works in Tokyo.
         {` `}
         <a href={`https://instagram.com/${social.linkedin.link}`}>
-          Follow me on LinkedIn
+          Connect with me on LinkedIn
         </a>
       </p>
     </div>

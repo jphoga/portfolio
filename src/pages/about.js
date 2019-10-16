@@ -7,12 +7,13 @@ import { rhythm, scale } from "../utils/typography"
 
 class AboutPage extends React.Component {
   render() {
-    
+    const aboutme = this.props.data.markdownRemark
+
     return (
       <Layout location={this.props.location} title='About me'>
         <SEO
           title='About me'
-          description='Some infos about me'
+          description='Some infos about me and my life in Japan'
         />
         <article>
           <header>
@@ -26,9 +27,7 @@ class AboutPage extends React.Component {
               Some info about me and my life in Japan.
             </p>
           </header>
-          <section >
-          <p>Test</p>
-          </section>
+          <section dangerouslySetInnerHTML={{ __html: aboutme.html }} />
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -66,27 +65,23 @@ class AboutPage extends React.Component {
 
 export default AboutPage
 
-export const aboutQuery = graphql`
-query {
-  site {
-    siteMetadata {
-      title
+export const pageQuery = graphql`
+  query AboutQuery {
+    site {
+      siteMetadata {
+        title
+        author
+      }
     }
-  }
-  allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-    edges {
-      node {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
+    markdownRemark(fields: { slug: { eq: "/about/about_me/" } }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
       }
     }
   }
-}
 `
