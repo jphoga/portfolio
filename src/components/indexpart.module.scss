@@ -15,12 +15,13 @@ $tabletMaxWidth: 1100px;
 //##### For Intro-Part ######
 
 .introContainer {
-  width: 32%;
+  width: 34%;
   margin-left: 5%;
   margin-right: 10rem;
   box-sizing: border-box;
   background-color: white;
   //margin-right: 10%;
+
 }
 
 .noBorderBottom {
@@ -32,14 +33,18 @@ $tabletMaxWidth: 1100px;
   border-bottom: solid #2685D0 2px;
   //border-bottom: solid #007ACC 2px;
   margin: 20% 6% 3% 6%;
-  font-size: 45px;
-  font-family: 'Montserat';
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .mainContent {
   text-align: center;
   font-size: 18px;
+  font-weight: 900;
+
 }
 
 .introImage {
@@ -74,6 +79,10 @@ $tabletMaxWidth: 1100px;
     text-align: center;
     margin-bottom: -20%;
     margin: 0 30% -16% 30%;
+    margin-top: -80px;
+    margin-left: 0;
+
+
   }
 }
 
@@ -97,6 +106,10 @@ $tabletMaxWidth: 1100px;
     height: 18rem;
     text-align: center;
     margin-bottom: -20%;
+    margin-top: -80px;
+    margin-left: 0;
+
+
   }
 }
 
@@ -117,6 +130,7 @@ $tabletMaxWidth: 1100px;
   margin-bottom: 0;
   width: 48rem;
   height: 32rem;
+  margin-left: -4%;
 }
 
 .aboutContainer {
@@ -130,9 +144,10 @@ $tabletMaxWidth: 1100px;
 .aboutTitle {
   text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 16% 8% 4% 8%;
+  margin: 16% 8% 4% 7%;
   font-size: 28px;
   font-weight: bold;
+
 }
 
 .aboutContent {
@@ -151,6 +166,7 @@ $tabletMaxWidth: 1100px;
     padding: 3px 5px 5px 0;
     width: 100%;
     margin-top: 0;
+    margin-left: 0;
   }
   .aboutTitle {
     margin: 8% 20% 5% 20%;
@@ -167,20 +183,19 @@ $tabletMaxWidth: 1100px;
     width: 26rem;
     height: 18rem;
     margin-bottom: -20%;
+    margin-left: 8%;
   }
   .aboutContainer {
     padding: 3px 5px 5px 0;
     width: 100%;
     margin-top: 0;
+    margin-left: 0;
   }
   .aboutTitle {
     margin: 8% 20% 5% 20%;
     text-align: center;
   }
-  .aboutContainer {
-    margin-top: 0;
-    //text-align: center;
-  }
+  
 }
 
 
@@ -198,7 +213,7 @@ $tabletMaxWidth: 1100px;
 .projectsTitle {
   text-align: right;
   //border-bottom: solid #2685D0 2px;
-  margin: 8% 4% -4% 5%;
+  margin: 8% 3% -4% 5%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -227,7 +242,7 @@ $tabletMaxWidth: 1100px;
     text-align: center;
   }
   .projectsContent {
-    text-align: left;
+    text-align: center;
     margin: 8% 16% -4% 26%;
   }
   .projectImage {
@@ -247,7 +262,7 @@ $tabletMaxWidth: 1100px;
     text-align: center;
   }
   .projectsContent {
-    text-align: left;
+    text-align: center;
     margin: 8% 10% 1% 14%;
   }
   .projectImage {

@@ -86,7 +86,7 @@ module.exports = {
         name: `Jan's Portfolio`,
         short_name: `Jan's Portfolio`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#78F2E3`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         //icon: `content/assets/gatsby-icon.png`,
