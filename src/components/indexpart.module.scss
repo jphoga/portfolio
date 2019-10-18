@@ -43,9 +43,9 @@ $tabletMaxWidth: 1100px;
 }
 
 .introImage {
-  margin-left: rhythm(1 / 4);
-  width: 40rem;
-  height: 36rem;
+  margin-left: -14%;
+  width: 52rem;
+  height: 44rem;
   margin-top: -140px;
 }
 
@@ -113,15 +113,16 @@ $tabletMaxWidth: 1100px;
 }
 
 .aboutImage{
-  margin-left: rhythm(1 / 4);
+  //margin-left: rhythm(1 / 4);
   margin-bottom: 0;
-  width: 33rem;
+  width: 48rem;
   height: 32rem;
 }
 
 .aboutContainer {
-  margin-top: 80px;
-  margin-left: 4%;
+  z-index: 2;
+  margin-top: 40px;
+  margin-left: -12%;
   width: 50%;
   text-align: justify;
 }
@@ -129,7 +130,7 @@ $tabletMaxWidth: 1100px;
 .aboutTitle {
   text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 16% 8% 4% 7%;
+  margin: 16% 8% 4% 8%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -187,10 +188,10 @@ $tabletMaxWidth: 1100px;
 
 
 .projectsContainer {
-  margin-top: 8px;
+  margin-top: 24px;
   margin-left: 0;
   margin-right: 4%;
-  width: 40%;
+  width: 44%;
   text-align: justify;
 }
 
@@ -209,11 +210,11 @@ $tabletMaxWidth: 1100px;
 }
 
 .projectImage{
-  margin-left: 2rem;
+  margin-left: -4rem;
   margin-top: 3%;
   margin-bottom: 0;
-  width: 35rem;
-  height: 26rem;
+  width: 44rem;
+  height: 30rem;
 }
 
 @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {

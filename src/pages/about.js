@@ -17,14 +17,22 @@ class AboutPage extends React.Component {
         />
         <article>
           <header>
+            <h1
+              style={{
+                marginTop: rhythm(1),
+                marginBottom: 0,
+              }}
+            >
+              {aboutme.frontmatter.title}
+            </h1>
             <p
               style={{
-                ...scale(1/ 5),
+                ...scale(-1 / 5),
                 display: `block`,
                 marginBottom: rhythm(1),
               }}
             >
-              Some info about me and my life in Japan.
+              {aboutme.frontmatter.date}
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: aboutme.html }} />
