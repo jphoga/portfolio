@@ -49,6 +49,7 @@ const IndexPart = (props) => {
       style={{
         display: `flex`,
         flexWrap: 'wrap',
+        justifyContent: `center`,
         // marginTop: rhythm(2.5),
         marginBottom: rhythm(2),
       }}
@@ -63,33 +64,36 @@ const IndexPart = (props) => {
        <main className={styles.projectsContent}>
        
         {posts.node.map(({ node }) => {
-                  const title = node.frontmatter.title || node.fields.slug
-                  return ( 
-                      <div
-                        key={node.fields.slug}
-                        style={{
-                          marginLeft: `1rem`,
-                          marginBottom: `-2rem`
-                        }}>
-                        <h4
-                          style={{
-                            marginBottom: rhythm(1 / 4)
-                          }}
-                        >
-                          <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                            {title}
-                          </Link>
-                        </h4>
-                        <section>
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: node.frontmatter.description || node.excerpt,
-                          }}
-                        />
-                      </section>
-                      </div>
-                  )
-                })}
+          if (node.frontmatter.title != "About me") {
+            const title = node.frontmatter.title || node.fields.slug
+            return ( 
+                <div
+                  key={node.fields.slug}
+                  style={{
+                    marginLeft: `1rem`,
+                    marginBottom: `-2rem`
+                  }}>
+                  <h4
+                    style={{
+                      marginBottom: rhythm(1 / 4)
+                    }}
+                  >
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h4>
+                  <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+                </div>
+            )
+
+        }        
+      })}
        
        </main>
      </div>

@@ -17,30 +17,33 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         <Bio />
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </article>
-          )
+          if ((node.frontmatter.title != "About me") || (node.fields.slug != "About me")) {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <article key={node.fields.slug}>
+                <header>
+                  <h3
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>{node.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+              </article>
+            )            
+          }
+
         })}
       </Layout>
     )

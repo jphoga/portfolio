@@ -51,6 +51,7 @@ const IndexPart = (props) => {
     style={{
       display: `flex`,
       flexWrap: 'wrap-reverse',
+      justifyContent: `center`,
       marginBottom: rhythm(4),
     }}
     className={styles.partContainer}

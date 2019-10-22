@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,33 +15,59 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
+        <h1
+          style={{
+            marginTop: rhythm(1),
+            marginBottom: 0,
+          }}
+        >
+          Some Projects
+        </h1>
+        <p
+          style={{
+            ...scale(-1 / 5),
+            display: `block`,
+            marginBottom: rhythm(1),
+          }}
+        >
+          October 23, 2019
+        </p>
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </article>
-          )
+          if ((node.frontmatter.title != "About me") || (node.fields.slug != "/about/about_me/")) {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <article key={node.fields.slug}>
+                <header>
+                  <h3
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>{node.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+              </article>
+            )
+          }
         })}
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
+        <footer>
+          <Bio />
+        </footer>
       </Layout>
     )
   }

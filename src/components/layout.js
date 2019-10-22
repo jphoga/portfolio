@@ -5,6 +5,10 @@ import Navbar from "./navbar";
 import { rhythm, scale } from "../utils/typography"
 import { root } from "postcss-selector-parser";
 
+const pageStyle = {
+  margin: '0 40px 0 40px',
+};
+
 class Layout extends React.Component {
   render() { 
     //const { data } = this.props;
@@ -48,7 +52,7 @@ class Layout extends React.Component {
         { link: "/projects", name: "projects" },
       ];
     return (
-      <div>
+      <div style={pageStyle}>
         <Navbar headerProps={listItems} />
         <div style={{
           marginLeft: `auto`,

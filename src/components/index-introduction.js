@@ -49,10 +49,12 @@ const IndexPart = (props) => {
       style={{
         display: `flex`,
         flexWrap: 'wrap',
+        justifyContent: 'center',
         // marginTop: rhythm(2.5),
         marginTop: rhythm(4),
         marginBottom: rhythm(4),
-      }}
+      }} 
+      className='additionals'
     >
       <div className={styles.introContainer}>
         <header className={styles.headerTitle}>
@@ -68,7 +70,7 @@ const IndexPart = (props) => {
           fontSize: `3.3rem`,
           }}>
           {Object.keys(social).map((keyName, i) => (
-              <a style={{ boxShadow: `none`, marginLeft: `1rem`, marginRight: `1rem` }} target="_blank" href={social[keyName].link}>
+              <a style={{ boxShadow: `none`, marginLeft: `1rem`, marginRight: `0.2rem`, fontSize: `48px` }} target="_blank" href={social[keyName].link}>
                 <i className={social[keyName].icon} ></i>
               </a>
             

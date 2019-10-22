@@ -2,7 +2,7 @@ $smallerDevicesMaxWidth: 360px;
 $maxWidth: 700px;
 $minWidth: 701px;
 $maxHeight: 600px;
-$tabletMaxWidth: 1100px;
+$tabletMaxWidth: 1350px;
 
 /* ####### */
 // General
@@ -21,7 +21,6 @@ $tabletMaxWidth: 1100px;
   box-sizing: border-box;
   background-color: white;
   //margin-right: 10%;
-
 }
 
 .noBorderBottom {
@@ -32,18 +31,19 @@ $tabletMaxWidth: 1100px;
   text-align: center;
   border-bottom: solid #2685D0 2px;
   //border-bottom: solid #007ACC 2px;
-  margin: 20% 6% 3% 6%;
-  font-size: 2.5rem;
+  margin: 20% 7% 3% 7%;
+  font-size: 44px;
+  font-weight: 900;
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
-  font-weight: 900;
-  letter-spacing: 1px;
+
 }
 
 .mainContent {
   text-align: center;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 19px;
+  //font-weight: 900;
+  font-weight: medium;
 
 }
 
@@ -67,8 +67,6 @@ $tabletMaxWidth: 1100px;
   }
   .headerTitle {
     font-size: 48px;
-    font-weight: bold;
-    font-family: 'Montserat';
     margin-top: 0;
     margin-left: 24%;
     margin-right: 24%;
@@ -77,12 +75,7 @@ $tabletMaxWidth: 1100px;
     width: 26rem;
     height: 18rem;
     text-align: center;
-    margin-bottom: -20%;
-    margin: 0 30% -16% 30%;
-    margin-top: -80px;
-    margin-left: 0;
-
-
+    margin: 0 26% -16% 26%;
   }
 }
 
@@ -102,13 +95,13 @@ $tabletMaxWidth: 1100px;
     margin-top: 0;
   }
   .introImage {
-    width: 26rem;
-    height: 18rem;
+    justify-content: center;
+    width: 22rem;
+    height: 14rem;
     text-align: center;
     margin-bottom: -20%;
-    margin-top: -80px;
+    margin-top: -40px;
     margin-left: 0;
-
 
   }
 }
@@ -160,7 +153,7 @@ $tabletMaxWidth: 1100px;
     width: 26rem;
     height: 18rem;
     margin-bottom: -20%;
-    margin: 0 30% -16% 30%;
+    margin: 0 22% -16% 22%;
   }
   .aboutContainer {
     padding: 3px 5px 5px 0;
@@ -174,16 +167,16 @@ $tabletMaxWidth: 1100px;
   }
   .aboutContainer {
     margin-top: 0;
+    margin: 0 16% 0 16%;
     //text-align: center;
   }
 }
 
 @media (max-width: $maxWidth) {
   .aboutImage {
-    width: 26rem;
-    height: 18rem;
+    width: 22rem;
+    height: 14rem;
     margin-bottom: -20%;
-    margin-left: 8%;
   }
   .aboutContainer {
     padding: 3px 5px 5px 0;
@@ -243,12 +236,10 @@ $tabletMaxWidth: 1100px;
   }
   .projectsContent {
     text-align: center;
-    margin: 8% 16% -4% 26%;
   }
   .projectImage {
     width: 20rem;
     height: 20rem;
-    margin: 8% 20% -4% 30%;
   }
 }
 
@@ -258,15 +249,14 @@ $tabletMaxWidth: 1100px;
     width: 100%;
   }
   .projectsTitle {
-    margin: 8% 20% -4% 20%;
     text-align: center;
   }
   .projectsContent {
     text-align: center;
-    margin: 8% 10% 1% 14%;
   }
   .projectImage {
     width: 20rem;
     height: 20rem;
+    margin:0;
   }
 }
