@@ -1,7 +1,7 @@
 ---
-title: Super Cars
+title: Super Cars Rental Shop
 date: "2017-07-28T22:40:32.169Z"
-description: Renting and renting out high-class cars.
+description: For all car lovers - renting and renting out high class cars.
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

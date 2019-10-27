@@ -12,6 +12,9 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
 
+    // In case of adding date under each project, copy below under project title
+    // <small>{node.frontmatter.date}</small>
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
@@ -21,7 +24,7 @@ class BlogIndex extends React.Component {
             marginBottom: 0,
           }}
         >
-          Some Projects
+         Some Projects
         </h1>
         <p
           style={{
@@ -30,7 +33,7 @@ class BlogIndex extends React.Component {
             marginBottom: rhythm(1),
           }}
         >
-          October 23, 2019
+         A small selection of projects I did at work and at the Le Wagon bootcamp 
         </p>
         {posts.map(({ node }) => {
           if ((node.frontmatter.title != "About me") || (node.fields.slug != "/about/about_me/")) {
@@ -47,7 +50,7 @@ class BlogIndex extends React.Component {
                       {title}
                     </Link>
                   </h3>
-                  <small>{node.frontmatter.date}</small>
+                  
                 </header>
                 <section>
                   <p

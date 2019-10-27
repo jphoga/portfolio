@@ -1,0 +1,46 @@
+$smallerDevicesMaxWidth: 360px;
+$maxWidth: 700px;
+$minWidth: 701px;
+$maxHeight: 600px;
+$tabletMaxWidth: 1350px;
+
+/* ####### */
+// General
+/* ####### */
+
+.gatsby-resp-image-image {
+  margin-left: -56px !important;
+  margin-bottom: 30px !important;
+  //border: 1px solid lightgrey !important;
+}
+
+.gatsby-resp-image-background-image {
+  background-image: none !important;
+  margin-bottom: 30px !important;
+}
+
+@media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
+.gatsby-resp-image-image {
+  margin-left: -16px !important;
+  margin-bottom: 30px !important;
+  //border: 1px solid lightgrey !important;
+}
+
+.gatsby-resp-image-background-image {
+  background-image: none !important;
+  margin-bottom: 30px !important;
+}
+}
+
+@media (max-width: $maxWidth) {
+.gatsby-resp-image-image {
+  margin-left: 0 !important;
+  margin-bottom: 30px !important;
+  //border: 1px solid lightgrey !important;
+}
+
+.gatsby-resp-image-background-image {
+  background-image: none !important;
+  margin-bottom: 30px !important;
+}
+}

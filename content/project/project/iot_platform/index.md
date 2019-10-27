@@ -1,7 +1,7 @@
 ---
-title: Data driven Manufacturing
+title: Internet of Things platform for factories
 date: "2019-03-28T22:40:32.169Z"
-description: IoT platform to visualize factory sensor data.
+description: An IoT app and cloud infrastructure to visualize sensor data in factories.
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

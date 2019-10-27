@@ -58,7 +58,7 @@ const IndexPart = (props) => {
     >
       <div className={styles.introContainer}>
         <header className={styles.headerTitle}>
-          JAN PAUL HOGA
+          Jan Paul Hoga
         </header>
         <main className={styles.mainContent}>
           CONSULTANT | FULL-STACK DEVELOPER

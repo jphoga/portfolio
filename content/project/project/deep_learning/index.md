@@ -1,10 +1,14 @@
 ---
-title: Object Detection on Edge
+title: Object Detection on the Edge with Tensorflow
 date: "2019-09-06T23:46:37.121Z"
-description: "Detecting objects while driving on a highway."
+description: "Detecting signs and reading them while driving on the highway."
 ---
 
-Wow! I love blogging so much already.
+Deep Learning is great and a lot of fun! 
+
+This is at least what I found out after being assigned to an already running project using four different Deep Learning models inside the same program and I had to figure out what each one was doing and how they connect. 
+
+
 
 Did you know that "despite its name, salted duck eggs can also be made from
 chicken eggs, though the taste and texture will be somewhat different, and the

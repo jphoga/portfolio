@@ -58,7 +58,7 @@ const IndexPart = (props) => {
      <div className={styles.projectsContainer}>
        <Link style={{ boxShadow: `none` }} to='/projects'>
          <header className={styles.projectsTitle}>
-           Projects
+           Some projects
          </header>
        </Link>  
        <main className={styles.projectsContent}>

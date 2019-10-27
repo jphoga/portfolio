@@ -28,11 +28,12 @@ class AboutPage extends React.Component {
             <p
               style={{
                 ...scale(-1 / 5),
+                marginTop: `8px`,
                 display: `block`,
                 marginBottom: rhythm(1),
               }}
             >
-              {aboutme.frontmatter.date}
+              ...a small history of my coding life...
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: aboutme.html }} />
