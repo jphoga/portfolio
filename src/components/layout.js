@@ -15,14 +15,11 @@ class Layout extends React.Component {
     const { location, title, children } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog`
-    console.log(location.pathname);
-    console.log(title);
-    console.log(children);
     let pageWidth = "";
     let header = "";
 
     if (location.pathname === rootPath ) {
-        pageWidth = 48;
+        pageWidth = 78;
     } else {
         pageWidth = 25;
     }

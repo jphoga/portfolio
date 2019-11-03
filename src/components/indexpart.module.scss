@@ -8,109 +8,20 @@ $tabletMaxWidth: 1350px;
 // General
 /* ####### */
 
+.gatsby-background-image-robveef_depr {
+  position: inherit !important;
+}
+
 .partContainer {
   margin-bottom: 10rem;
 }
 
-//##### For Intro-Part ######
+//##### For Index-Part #####
 
-.introContainer {
-  width: 34%;
-  //margin-left: 5%;
-  margin-right: 10rem;
-  box-sizing: border-box;
-  background-color: white;
-  //margin-right: 10%;
+.lowerMargin {
+  margin-top: 0; 
 }
 
-.noBorderBottom {
-  border-bottom: none !important;
-}
-
-.headerTitle {
-  text-align: left;
-  //border-bottom: solid #2685D0 2px;
-  //border-bottom: solid #007ACC 2px;
-  margin: 8% 0 3% 0;
-  font-size: 56px;
-  font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
-  text-rendering: optimizeLegibility;
-
-}
-
-.mainContent {
-  text-align: left;
-  font-size: 24px;
-  //font-weight: 900;
-  font-weight: medium;
-
-}
-
-.introImage {
-  margin-left: -14%;
-  width: 52rem;
-  height: 44rem;
-  margin-top: -140px;
-}
-
-@media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
-  .introContainer {
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: white;
-    text-align: center;
-  }
-  .header {
-    height: 54px;
-  }
-  .headerTitle {
-    font-size: 48px;
-    margin-top: 0;
-    margin-left: 24%;
-    margin-right: 24%;
-  }
-  .introImage {
-    width: 26rem;
-    height: 18rem;
-    text-align: center;
-    margin: 0 26% -16% 26%;
-  }
-}
-
-@media (max-width: $maxWidth) {
-  .introContainer {
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: white;
-  }
-  .header {
-    height: 54px;
-  }
-  .headerTitle {
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 0;
-  }
-  .introImage {
-    justify-content: center;
-    width: 22rem;
-    height: 14rem;
-    text-align: center;
-    margin-bottom: -20%;
-    margin-top: -40px;
-    margin-left: 0;
-
-  }
-}
-
-@media (min-width: $minWidth) and (min-height: $maxHeight) {
-  .header {
-    height: 72px;
-  }
-}
 
 //##### For About-Part #####
 
@@ -260,3 +171,105 @@ $tabletMaxWidth: 1350px;
     margin:0;
   }
 }
+
+
+
+//##### For Intro-Part ######
+
+// .introContainer {
+//   width: 34%;
+//   //margin-left: 5%;
+//   margin-right: 10rem;
+//   box-sizing: border-box;
+//   background-color: white;
+//   //margin-right: 10%;
+// }
+
+// .noBorderBottom {
+//   border-bottom: none !important;
+// }
+
+// .headerTitle {
+//   text-align: left;
+//   //border-bottom: solid #2685D0 2px;
+//   //border-bottom: solid #007ACC 2px;
+//   margin: 8% 0 3% 0;
+//   font-size: 56px;
+//   font-weight: 800;
+//   font-family: 'Montserrat', sans-serif;
+//   text-rendering: optimizeLegibility;
+
+// }
+
+// .mainContent {
+//   text-align: left;
+//   font-size: 24px;
+//   //font-weight: 900;
+//   font-weight: medium;
+
+// }
+
+// .introImage {
+//   margin-left: -14%;
+//   width: 52rem;
+//   height: 44rem;
+//   margin-top: -140px;
+// }
+
+// @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
+//   .introContainer {
+//     width: 100%;
+//     margin: 0;
+//     box-sizing: border-box;
+//     background-color: white;
+//     text-align: center;
+//   }
+//   .header {
+//     height: 54px;
+//   }
+//   .headerTitle {
+//     font-size: 48px;
+//     margin-top: 0;
+//     margin-left: 24%;
+//     margin-right: 24%;
+//   }
+//   .introImage {
+//     width: 26rem;
+//     height: 18rem;
+//     text-align: center;
+//     margin: 0 26% -16% 26%;
+//   }
+// }
+
+// @media (max-width: $maxWidth) {
+//   .introContainer {
+//     width: 100%;
+//     margin: 0;
+//     box-sizing: border-box;
+//     background-color: white;
+//   }
+//   .header {
+//     height: 54px;
+//   }
+//   .headerTitle {
+//     font-size: 28px;
+//     font-weight: bold;
+//     margin-top: 0;
+//   }
+//   .introImage {
+//     justify-content: center;
+//     width: 22rem;
+//     height: 14rem;
+//     text-align: center;
+//     margin-bottom: -20%;
+//     margin-top: -40px;
+//     margin-left: 0;
+
+//   }
+// }
+
+// @media (min-width: $minWidth) and (min-height: $maxHeight) {
+//   .header {
+//     height: 72px;
+//   }
+// }
