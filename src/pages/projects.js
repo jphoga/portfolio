@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
         <h1
           style={{
             marginTop: rhythm(1),
-            marginBottom: 0,
+            marginBottom: `1%`,
           }}
         >
          Some Projects
@@ -63,6 +63,8 @@ class BlogIndex extends React.Component {
             )
           }
         })}
+        <div style={{ marginBottom: `10%` }}>
+        </div>
         <hr
           style={{
             marginBottom: rhythm(1),

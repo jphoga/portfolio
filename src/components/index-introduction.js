@@ -2,21 +2,23 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
+import { Link } from "gatsby";
 
 import { rhythm, scale } from "../utils/typography"
+import BackgroundImage from 'gatsby-background-image'
 
 const IndexPart = (props) => {
   const query = useStaticQuery(graphql` 
     fragment squareImage1 on File {
       childImageSharp {
-        fixed(width: 900, height: 650) {
-          src
-          originalName
+        fixed(width: 1600, height: 800) {
+            src
+            originalName
+          }
         }
-      }
   }, 
   query {
-      image1: file(relativePath: { eq: "undraw_sunlight.png" }) {
+      image1: file(relativePath: { eq: "tokyo-air.jpg" }) {
         ...squareImage1
       }
       site {
@@ -58,10 +60,10 @@ const IndexPart = (props) => {
     >
       <div className={styles.introContainer}>
         <header className={styles.headerTitle}>
-          Jan Paul Hoga
+          Hi, I am Jan Paul.
         </header>
         <main className={styles.mainContent}>
-          CONSULTANT | FULL-STACK DEVELOPER
+          I am Consultant | Full-Stack developer located in Tokyo. 
         </main>
         <ul style={{
           display: `flex`,

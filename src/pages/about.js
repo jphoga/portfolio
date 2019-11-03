@@ -27,7 +27,7 @@ class AboutPage extends React.Component {
             </h1>
             <p
               style={{
-                ...scale(-1 / 5),
+                ...scale(- 1 / 5),
                 marginTop: `8px`,
                 display: `block`,
                 marginBottom: rhythm(1),

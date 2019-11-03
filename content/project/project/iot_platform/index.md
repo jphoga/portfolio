@@ -4,6 +4,22 @@ date: "2019-03-28T22:40:32.169Z"
 description: An IoT app and cloud infrastructure to visualize sensor data in factories.
 ---
 
+After I finished my Le Wagon programming bootcamp (best time!) I went back to work at my company. With all this newly learned programming stack I confidently 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named

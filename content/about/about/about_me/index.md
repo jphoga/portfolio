@@ -10,7 +10,7 @@ I did not study computer science or anything IT related. My major was Japanese S
 
 During my studies I got in touch with the wonderful world of programming by taking some Java classes and basic programming tutorials. These were so much fun that I decided to deep dive into computer science later on. But since I already was pretty much advanced in my regular studies I had to finish those first.
 
-And that also meant of course visiting my beloved **Tokyo** every now and again...  
+And that also meant of course visiting my beloved Tokyo every now and again...  
 
 ![Tokyo](./tokyo-air.jpg)
 

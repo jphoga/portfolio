@@ -16,7 +16,7 @@ $tabletMaxWidth: 1350px;
 
 .introContainer {
   width: 34%;
-  margin-left: 5%;
+  //margin-left: 5%;
   margin-right: 10rem;
   box-sizing: border-box;
   background-color: white;
@@ -28,11 +28,11 @@ $tabletMaxWidth: 1350px;
 }
 
 .headerTitle {
-  text-align: center;
-  border-bottom: solid #2685D0 2px;
+  text-align: left;
+  //border-bottom: solid #2685D0 2px;
   //border-bottom: solid #007ACC 2px;
-  margin: 8% 7% 3% 7%;
-  font-size: 51px;
+  margin: 8% 0 3% 0;
+  font-size: 56px;
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
@@ -40,8 +40,8 @@ $tabletMaxWidth: 1350px;
 }
 
 .mainContent {
-  text-align: center;
-  font-size: 19px;
+  text-align: left;
+  font-size: 24px;
   //font-weight: 900;
   font-weight: medium;
 
