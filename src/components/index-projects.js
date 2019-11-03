@@ -18,7 +18,7 @@ const IndexPart = (props) => {
         }
     }, 
     query {
-        image3: file(relativePath: { eq: "undraw_to_the_moon_v1mv.png" }) {
+        image3: file(relativePath: { eq: "undraw_Firmware_jw6u.png" }) {
           ...squareImage3
         }
       site {
@@ -58,7 +58,7 @@ const IndexPart = (props) => {
      <div className={styles.projectsContainer}>
        <Link style={{ boxShadow: `none` }} to='/projects'>
          <header className={styles.projectsTitle}>
-           Some projects
+           Some of my projects
          </header>
        </Link>  
        <main className={styles.projectsContent}>
@@ -73,7 +73,7 @@ const IndexPart = (props) => {
                     marginLeft: `1rem`,
                     marginBottom: `-2rem`
                   }}>
-                  <h4
+                  <h5
                     style={{
                       marginBottom: rhythm(1 / 4)
                     }}
@@ -81,7 +81,7 @@ const IndexPart = (props) => {
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}
                     </Link>
-                  </h4>
+                  </h5>
                   <section>
                   <p
                     dangerouslySetInnerHTML={{

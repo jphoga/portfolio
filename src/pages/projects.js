@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
             marginBottom: rhythm(1),
           }}
         >
-         A small selection of projects I did at work and at the Le Wagon bootcamp 
+         A selection of projects I did at work and at the Le Wagon bootcamp 
         </p>
         {posts.map(({ node }) => {
           if ((node.frontmatter.title != "About me") || (node.fields.slug != "/about/about_me/")) {

@@ -8,10 +8,13 @@ I always thought that the realms of Deep Learning and Data Science were reserved
 
 Well, for the ongoing research in Deep Learning this is definitely true. But if you use certain freely available tools and methods to apply Deep Learning to real world problems it is actually comparatively easy to get started with and a lot of fun! Google's **Tensorflow** or Facebooks **Pytorch** are pretty handy and well build frameworks to start with. Combine this with **Transfer Learning** (train an existing model to recognize additional stuff e.g. Pokemon) your boundaries are just your imagination (of course there are some drawbacks but still it works really well). 
 
-### A whole new world of Detection
+![ML](./machine-learning-piano.jpg)
 
-The project I got assigned to uses Deep Learning for Object Detection, a method to detect pre-trained objects inside a frame while also telling you where these objects are by applying a bounding box around it. There are other Deep Learning methods like Image Classification (classifying the whole image to a category e.g. "National Park", "Desert" etc.) or Natural Language Processing (detecting words and sentences out of spoken or written language). Also Deep Learning is just one part of a broader world of Machine Learning with many more applications.  
-But you have to start somewhere and Object Detection is definitely a really interesting way to deep dive into Deep Learning. 
+### A whole new world of detection
+
+The project I got assigned to uses Deep Learning for Object Detection, a method to detect pre-trained objects inside a frame while also telling you where these objects are by applying a bounding box around it. There are other Deep Learning methods like Image Classification (classifying the whole image to a category e.g. "National Park", "Desert" etc.) or Natural Language Processing (detecting words and sentences out of spoken or written language). 
+
+Also Deep Learning is just one part of a broader world of Machine Learning with many more applications. But you have to start somewhere and Object Detection is definitely a really interesting way to deep dive into Deep Learning. 
 
 I won't go too much into the details of my project here (and I can't due to disclosure issues), but in general we built an _edge-server_ (as opposite to a _cloud-server_) connected to a camera (drive-recorder) and a GPS-card to recognize objects on the road while driving in your car. This can be signs on the road like kiloposts or stop signs but also other cars, their number plates or fallen objects blocking the road. The really fun thing is to combine this with an OCR model to actually read what it says on the signs (e.g. "30 miles to Tokyo").
 
@@ -33,7 +36,7 @@ So because of this project I got into Deep Learning and Robotics at the same tim
 
 I could even visit this years ROS Con (yes, there is a big community around ROS) to meet all kinds of people and learn about projects using ROS in commercial robots and science around the world. In case you still wonder what this ROS is all about: in short, ROS makes it possible to create robotic applications and robots more easily since it is open source. This means you don't have to spend your first million to create a functioning framework for your robot yourself. 
 
-Here is a picture from this years ROS Con in Macau (I swear I only gambled a little):
+![RosCon](./roscon.png)
 
 Happy Deep Learning and robot development everyone!
 

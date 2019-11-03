@@ -12,7 +12,7 @@ During my studies I got in touch with the wonderful world of programming by taki
 
 And that also meant of course visiting my beloved Tokyo every now and again...  
 
-![Tokyo](./tokyo-air.jpg)
+![Tokyo](./tokyo-golden-gai.jpg)
 
 ## Early working years - a slow start  
 
@@ -46,10 +46,10 @@ I miss my team members. Cheers to you!
 
 ## Same job, different role - full deep dive into coding
 
-Equipped with my new Full-Stack coding skills I went back to my company and asked for a position as a developer. They were happy to put me into the Internet of Things (IoT) sector which creates and sells solutions and services to bring digital transformation to our clients. Here I am now - a member of the development team building awesome applications and server/cloud infrastructure for global projects and international clients. 
+Equipped with my new Full-Stack coding skills I went back to my company and asked for a position as a developer. They were happy to put me into the IoT (Internet of Things) sector where we create and sell solutions and services to bring digital transformation to our clients. Here I am now - a member of the development team building awesome applications and cloud infrastructure for global projects and international clients. 
 
-I can finally code from morning to evening, learn a ton of different languages and frameworks (e.g. **Java Spring Boot, Python Flask, Node Express**) as well as working with **Cloud providers** on a pretty deep level (especially [AWS](http://aws.com)). 
+I can finally code from morning to evening, learn a ton of different languages and frameworks (lately e.g. **Java Spring Boot, Python Flask, Node Express**) as well as working with **Cloud providers** on a pretty deep level (especially [AWS](http://aws.com)). 
 
-I even got the chance to build a **Deep Learning model** for object recognition using transfer learning with **Tensorflow** while re-writing an applications build in [ROS](http://ros.org) (**Robot Operating System**) running on an **Nvidia Edge Server**. Check out my [Projects Page](/projects) to find out more about some of my projects I did so far. 
+I even got the chance to build a **Deep Learning model** for Object Detection using Transfer Learning with **Tensorflow** while rewriting an applications build in [ROS](http://ros.org) (**Robot Operating System**) running on an **Nvidia Edge Server**. Check out my [Projects Page](/projects) to find out more about some of the projects I did so far. 
 
 Cheers!

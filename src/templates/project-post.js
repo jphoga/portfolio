@@ -36,7 +36,7 @@ class BlogPostTemplate extends React.Component {
                 marginBottom: rhythm(1),
               }}
             >
-              {post.frontmatter.date}
+              
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />

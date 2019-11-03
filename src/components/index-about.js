@@ -53,6 +53,7 @@ const IndexPart = (props) => {
       flexWrap: 'wrap-reverse',
       justifyContent: `center`,
       marginBottom: rhythm(4),
+      marginTop: rhythm(4),
     }}
     className={styles.partContainer}
     >
@@ -71,8 +72,7 @@ const IndexPart = (props) => {
       </Link>  
         <main className={styles.aboutContent}>
           <p>Hi, my name is Jan. I am a German switching between 
-          life in Germany and Japan. I am very lucky that while working as a consultant 
-          I can still follow my passion in programming and technology.  
+          life in Germany and Japan. I am very lucky that I can follow my passion in programming and technology while working as a consultant.  
           <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
             {hitMe}
           </a>  </p>

@@ -46,8 +46,8 @@ const IndexPart = ({ className }) => (
               width:`80%`,
               marginLeft: '3rem',
             }}>
-            <h1>Hi, my name is Jan.</h1>
-            <h2 className={styles.lowerMargin}>I am a Consultant and Full-Stack Programmer.</h2>
+            <h1 style={{fontSize: '48px'}}>Hi, my name is Jan.</h1>
+            <h2 className={styles.lowerMargin}>I am a Full-Stack Programmer and Consultant.</h2>
           </header>
         </BackgroundImage>
       )
