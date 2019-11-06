@@ -1,0 +1,370 @@
+[1mdiff --git a/content/project/project/coin_spread/index.md b/content/project/project/coin_spread/index.md[m
+[1mindex bce6cc4..ca0ba07 100644[m
+[1m--- a/content/project/project/coin_spread/index.md[m
+[1m+++ b/content/project/project/coin_spread/index.md[m
+[36m@@ -10,7 +10,3 @@[m [mDuring my second bigger project at the Le Wagon bootcamp, my three team mates an[m
+ [m
+ The idea behind the "coin-spread" crypto dashboard had our buddy and biz-team lead David. He works in Finance also dealing with crypto currency and he was lamenting that although a lot of crypto dashboards do exist, not one of them could make you communicate with like-minded peeps as in social network to exchange messages about latest events. We also added a portfolio page where one can log-in and track their current crypto-wealth (...or damage).[m
+ [m
+[31m-[m
+[31m-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).[m
+[31m-[m
+[31m-![Portfolio Page](./portfolio-coin-spread.PNG)[m
+[1mdiff --git a/content/project/project/coin_spread/portfolio-coin-spread.PNG b/content/project/project/coin_spread/portfolio-coin-spread.PNG[m
+[1mdeleted file mode 100644[m
+[1mindex 7bd402c..0000000[m
+Binary files a/content/project/project/coin_spread/portfolio-coin-spread.PNG and /dev/null differ
+[1mdiff --git a/content/project/project/deep_learning/index.md b/content/project/project/deep_learning/index.md[m
+[1mindex f4bfab4..a1df7cf 100644[m
+[1m--- a/content/project/project/deep_learning/index.md[m
+[1m+++ b/content/project/project/deep_learning/index.md[m
+[36m@@ -28,7 +28,7 @@[m [mI remember it took me nearly half a day to take each picture, draw the annotatio[m
+ [m
+ I had a fully functioning model trained in just a few days without much prior knowledge of Machine Learning and Deep Learning. A great feeling![m
+ [m
+[31m-### Into Robotics[m
+[32m+[m[32m### Into robotics[m
+ [m
+ Another cool part of the project was that I got in touch with an awesome framework called ROS (Robotic Operating System). We didn't use any robotic arms or self-drving capacities in our project but nevertheless ROS is sometimes a great option in case you want your application to run autonomously. This meant in our case switch it on and let it run without any user control (there wasn't even a UI to control the app while it ran). [m
+ [m
+[1mdiff --git a/content/project/project/iot_platform/index.md b/content/project/project/iot_platform/index.md[m
+[1mindex 4d3ec14..c58b8f9 100644[m
+[1m--- a/content/project/project/iot_platform/index.md[m
+[1m+++ b/content/project/project/iot_platform/index.md[m
+[36m@@ -6,119 +6,3 @@[m [mdescription: An IoT app and cloud infrastructure to visualize sensor data in fac[m
+ [m
+ After I finished my Le Wagon programming bootcamp (best time!) I went back to work at my company. With all this newly learned programming stack I confidently [m
+ [m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Far far away, behind the word mountains, far from the countries Vokalia and[m
+[31m-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove[m
+[31m-right at the coast of the Semantics, a large language ocean. A small river named[m
+[31m-Duden flows by their place and supplies it with the necessary regelialia.[m
+[31m-[m
+[31m-## On deer horse aboard tritely yikes and much[m
+[31m-[m
+[31m-The Big Oxmox advised her not to do so, because there were thousands of bad[m
+[31m-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text[m
+[31m-didn’t listen. She packed her seven versalia, put her initial into the belt and[m
+[31m-made herself on the way.[m
+[31m-[m
+[31m-- This however showed weasel[m
+[31m-- Well uncritical so misled[m
+[31m-  - this is very interesting[m
+[31m-- Goodness much until that fluid owl[m
+[31m-[m
+[31m-When she reached the first hills of the **Italic Mountains**, she had a last[m
+[31m-view back on the skyline of her hometown _Bookmarksgrove_, the headline of[m
+[31m-[Alphabet Village](http://google.com) and the subline of her own road, the Line[m
+[31m-Lane. Pityful a rhetoric question ran over her cheek, then she continued her[m
+[31m-way. On her way she met a copy.[m
+[31m-[m
+[31m-### Overlaid the jeepers uselessly much excluding[m
+[31m-[m
+[31m-But nothing the copy said could convince her and so it didn’t take long until a[m
+[31m-few insidious Copy Writers ambushed her, made her drunk with[m
+[31m-[Longe and Parole](http://google.com) and dragged her into their agency, where[m
+[31m-they abused her for their projects again and again. And if she hasn’t been[m
+[31m-rewritten, then they are still using her.[m
+[31m-[m
+[31m-> Far far away, behind the word mountains, far from the countries Vokalia and[m
+[31m-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove[m
+[31m-> right at the coast of the Semantics, a large language ocean.[m
+[31m-[m
+[31m-It is a paradisematic country, in which roasted parts of sentences fly into your[m
+[31m-mouth. Even the all-powerful Pointing has no control about the blind texts it is[m
+[31m-an almost unorthographic life One day however a small line of blind text by the[m
+[31m-name of Lorem Ipsum decided to leave for the far World of Grammar.[m
+[31m-[m
+[31m-### According a funnily until pre-set or arrogant well cheerful[m
+[31m-[m
+[31m-The Big Oxmox advised her not to do so, because there were thousands of bad[m
+[31m-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text[m
+[31m-didn’t listen. She packed her seven versalia, put her initial into the belt and[m
+[31m-made herself on the way.[m
+[31m-[m
+[31m-1.  So baboon this[m
+[31m-2.  Mounted militant weasel gregariously admonishingly straightly hey[m
+[31m-3.  Dear foresaw hungry and much some overhung[m
+[31m-4.  Rash opossum less because less some amid besides yikes jeepers frenetic[m
+[31m-    impassive fruitlessly shut[m
+[31m-[m
+[31m-When she reached the first hills of the Italic Mountains, she had a last view[m
+[31m-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet[m
+[31m-Village and the subline of her own road, the Line Lane. Pityful a rhetoric[m
+[31m-question ran over her cheek, then she continued her way. On her way she met a[m
+[31m-copy.[m
+[31m-[m
+[31m-> The copy warned the Little Blind Text, that where it came from it would have[m
+[31m-> been rewritten a thousand times and everything that was left from its origin[m
+[31m-> would be the word "and" and the Little Blind Text should turn around and[m
+[31m-> return to its own, safe country.[m
+[31m-[m
+[31m-But nothing the copy said could convince her and so it didn’t take long until a[m
+[31m-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole[m
+[31m-and dragged her into their agency, where they abused her for their projects[m
+[31m-again and again. And if she hasn’t been rewritten, then they are still using[m
+[31m-her. Far far away, behind the word mountains, far from the countries Vokalia and[m
+[31m-Consonantia, there live the blind texts.[m
+[31m-[m
+[31m-#### Silent delightfully including because before one up barring chameleon[m
+[31m-[m
+[31m-Separated they live in Bookmarksgrove right at the coast of the Semantics, a[m
+[31m-large language ocean. A small river named Duden flows by their place and[m
+[31m-supplies it with the necessary regelialia. It is a paradisematic country, in[m
+[31m-which roasted parts of sentences fly into your mouth.[m
+[31m-[m
+[31m-Even the all-powerful Pointing has no control about the blind texts it is an[m
+[31m-almost unorthographic life One day however a small line of blind text by the[m
+[31m-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox[m
+[31m-advised her not to do so, because there were thousands of bad Commas, wild[m
+[31m-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.[m
+[31m-[m
+[31m-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along[m
+[31m-[m
+[31m-She packed her seven versalia, put her initial into the belt and made herself on[m
+[31m-the way. When she reached the first hills of the Italic Mountains, she had a[m
+[31m-last view back on the skyline of her hometown Bookmarksgrove, the headline of[m
+[31m-Alphabet Village and the subline of her own road, the Line Lane. Pityful a[m
+[31m-rhetoric question ran over her cheek, then she continued her way. On her way she[m
+[31m-met a copy.[m
+[31m-[m
+[31m-###### Slapped cozy a that lightheartedly and far[m
+[31m-[m
+[31m-The copy warned the Little Blind Text, that where it came from it would have[m
+[31m-been rewritten a thousand times and everything that was left from its origin[m
+[31m-would be the word "and" and the Little Blind Text should turn around and return[m
+[31m-to its own, safe country. But nothing the copy said could convince her and so it[m
+[31m-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk[m
+[31m-with Longe and Parole and dragged her into their agency, where they abused her[m
+[31m-for their projects again and again.[m
+[1mdiff --git a/content/project/project/super_car/index.md b/content/project/project/super_car/index.md[m
+[1mindex 15e1f90..631a150 100644[m
+[1m--- a/content/project/project/super_car/index.md[m
+[1m+++ b/content/project/project/super_car/index.md[m
+[36m@@ -8,101 +8,3 @@[m [mTo all the people who want to look rich for one day: Rent your high class car an[m
+ [m
+ Super Cars was our first project during the Le Wagon bootcamp which we did with the team mates with whom we also will develop and ship our final pitch. This meant team work after a long seven weeks of more or less solo-coding. The stages of developing a product roughly  [m
+ [m
+[31m-[m
+[31m-## On deer horse aboard tritely yikes and much[m
+[31m-[m
+[31m-The Big Oxmox advised her not to do so, because there were thousands of bad[m
+[31m-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text[m
+[31m-didn’t listen. She packed her seven versalia, put her initial into the belt and[m
+[31m-made herself on the way.[m
+[31m-[m
+[31m-- This however showed weasel[m
+[31m-- Well uncritical so misled[m
+[31m-  - this is very interesting[m
+[31m-- Goodness much until that fluid owl[m
+[31m-[m
+[31m-When she reached the first hills of the **Italic Mountains**, she had a last[m
+[31m-view back on the skyline of her hometown _Bookmarksgrove_, the headline of[m
+[31m-[Alphabet Village](http://google.com) and the subline of her own road, the Line[m
+[31m-Lane. Pityful a rhetoric question ran over her cheek, then she continued her[m
+[31m-way. On her way she met a copy.[m
+[31m-[m
+[31m-### Overlaid the jeepers uselessly much excluding[m
+[31m-[m
+[31m-But nothing the copy said could convince her and so it didn’t take long until a[m
+[31m-few insidious Copy Writers ambushed her, made her drunk with[m
+[31m-[Longe and Parole](http://google.com) and dragged her into their agency, where[m
+[31m-they abused her for their projects again and again. And if she hasn’t been[m
+[31m-rewritten, then they are still using her.[m
+[31m-[m
+[31m-> Far far away, behind the word mountains, far from the countries Vokalia and[m
+[31m-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove[m
+[31m-> right at the coast of the Semantics, a large language ocean.[m
+[31m-[m
+[31m-It is a paradisematic country, in which roasted parts of sentences fly into your[m
+[31m-mouth. Even the all-powerful Pointing has no control about the blind texts it is[m
+[31m-an almost unorthographic life One day however a small line of blind text by the[m
+[31m-name of Lorem Ipsum decided to leave for the far World of Grammar.[m
+[31m-[m
+[31m-### According a funnily until pre-set or arrogant well cheerful[m
+[31m-[m
+[31m-The Big Oxmox advised her not to do so, because there were thousands of bad[m
+[31m-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text[m
+[31m-didn’t listen. She packed her seven versalia, put her initial into the belt and[m
+[31m-made herself on the way.[m
+[31m-[m
+[31m-1.  So baboon this[m
+[31m-2.  Mounted militant weasel gregariously admonishingly straightly hey[m
+[31m-3.  Dear foresaw hungry and much some overhung[m
+[31m-4.  Rash opossum less because less some amid besides yikes jeepers frenetic[m
+[31m-    impassive fruitlessly shut[m
+[31m-[m
+[31m-When she reached the first hills of the Italic Mountains, she had a last view[m
+[31m-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet[m
+[31m-Village and the subline of her own road, the Line Lane. Pityful a rhetoric[m
+[31m-question ran over her cheek, then she continued her way. On her way she met a[m
+[31m-copy.[m
+[31m-[m
+[31m-> The copy warned the Little Blind Text, that where it came from it would have[m
+[31m-> been rewritten a thousand times and everything that was left from its origin[m
+[31m-> would be the word "and" and the Little Blind Text should turn around and[m
+[31m-> return to its own, safe country.[m
+[31m-[m
+[31m-But nothing the copy said could convince her and so it didn’t take long until a[m
+[31m-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole[m
+[31m-and dragged her into their agency, where they abused her for their projects[m
+[31m-again and again. And if she hasn’t been rewritten, then they are still using[m
+[31m-her. Far far away, behind the word mountains, far from the countries Vokalia and[m
+[31m-Consonantia, there live the blind texts.[m
+[31m-[m
+[31m-#### Silent delightfully including because before one up barring chameleon[m
+[31m-[m
+[31m-Separated they live in Bookmarksgrove right at the coast of the Semantics, a[m
+[31m-large language ocean. A small river named Duden flows by their place and[m
+[31m-supplies it with the necessary regelialia. It is a paradisematic country, in[m
+[31m-which roasted parts of sentences fly into your mouth.[m
+[31m-[m
+[31m-Even the all-powerful Pointing has no control about the blind texts it is an[m
+[31m-almost unorthographic life One day however a small line of blind text by the[m
+[31m-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox[m
+[31m-advised her not to do so, because there were thousands of bad Commas, wild[m
+[31m-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.[m
+[31m-[m
+[31m-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along[m
+[31m-[m
+[31m-She packed her seven versalia, put her initial into the belt and made herself on[m
+[31m-the way. When she reached the first hills of the Italic Mountains, she had a[m
+[31m-last view back on the skyline of her hometown Bookmarksgrove, the headline of[m
+[31m-Alphabet Village and the subline of her own road, the Line Lane. Pityful a[m
+[31m-rhetoric question ran over her cheek, then she continued her way. On her way she[m
+[31m-met a copy.[m
+[31m-[m
+[31m-###### Slapped cozy a that lightheartedly and far[m
+[31m-[m
+[31m-The copy warned the Little Blind Text, that where it came from it would have[m
+[31m-been rewritten a thousand times and everything that was left from its origin[m
+[31m-would be the word "and" and the Little Blind Text should turn around and return[m
+[31m-to its own, safe country. But nothing the copy said could convince her and so it[m
+[31m-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk[m
+[31m-with Longe and Parole and dragged her into their agency, where they abused her[m
+[31m-for their projects again and again.[m
+[1mdiff --git a/src/components/background-image.jsx b/src/components/background-image.jsx[m
+[1mdeleted file mode 100644[m
+[1mindex 2ffb26d..0000000[m
+[1m--- a/src/components/background-image.jsx[m
+[1m+++ /dev/null[m
+[36m@@ -1,44 +0,0 @@[m
+[31m-import React from 'react'[m
+[31m-import { graphql, StaticQuery } from 'gatsby'[m
+[31m-import styled from 'styled-components'[m
+[31m-[m
+[31m-import BackgroundImage from 'gatsby-background-image'[m
+[31m-[m
+[31m-const BackgroundSection = ({ className }) => ([m
+[31m-  <StaticQuery[m
+[31m-    query={graphql`[m
+[31m-      query {[m
+[31m-        desktop: file(relativePath: { eq: "tokyo-air.jpg" }) {[m
+[31m-          childImageSharp {[m
+[31m-            fluid(quality: 90, maxWidth: 1920) {[m
+[31m-              ...GatsbyImageSharpFluid_withWebp[m
+[31m-            }[m
+[31m-          }[m
+[31m-        }[m
+[31m-      }[m
+[31m-    `}[m
+[31m-    render={data => {[m
+[31m-      // Set ImageData.[m
+[31m-      const imageData = data.desktop.childImageSharp.fluid[m
+[31m-      return ([m
+[31m-        <BackgroundImage[m
+[31m-          Tag="section"[m
+[31m-          className={className}[m
+[31m-          fluid={imageData}[m
+[31m-          backgroundColor={`#040e18`}[m
+[31m-        >[m
+[31m-          <h1>Hello gatsby-background-image</h1>[m
+[31m-        </BackgroundImage>[m
+[31m-      )[m
+[31m-    }}[m
+[31m-  />[m
+[31m-)[m
+[31m-[m
+[31m-const StyledBackgroundSection = styled(BackgroundSection)`[m
+[31m-  width: 100%;[m
+[31m-  background-position: bottom center;[m
+[31m-  background-repeat: repeat-y;[m
+[31m-  background-size: cover;[m
+[31m-`[m
+[31m-[m
+[31m-export default StyledBackgroundSection[m
+\ No newline at end of file[m
+[1mdiff --git a/src/components/index-introduction.js b/src/components/index-introduction.js[m
+[1mindex d8cd4b4..d203218 100644[m
+[1m--- a/src/components/index-introduction.js[m
+[1m+++ b/src/components/index-introduction.js[m
+[36m@@ -33,13 +33,8 @@[m [mconst IndexPart = ({ className }) => ([m
+             justifyContent: `left`,[m
+             color: `white`,[m
+             height: `900px`,[m
+[31m-            //width: '109%',[m
+[31m-            //marginLeft: '-5%'[m
+[31m-            //position: 'inherit',[m
+[31m-            //marginBottom: '40%',[m
+[31m-            //zIndex: 99,[m
+             margin: '0 -40px 0 -40px',[m
+[31m-          }}[m
+[32m+[m[32m           }}[m
+         >[m
+           <header [m
+             style={{[m
+[1mdiff --git a/src/components/indexpart.module.scss b/src/components/indexpart.module.scss[m
+[1mindex 72ab0a5..7fd209c 100644[m
+[1m--- a/src/components/indexpart.module.scss[m
+[1m+++ b/src/components/indexpart.module.scss[m
+[36m@@ -25,8 +25,10 @@[m [mh5 {[m
+ [m
+ .gatsby-background-image-robveef_depr {[m
+   position: inherit !important;[m
+[32m+[m
+ }[m
+ [m
+[32m+[m
+ .partContainer {[m
+   margin-bottom: 10rem;[m
+ }[m
+[36m@@ -37,6 +39,12 @@[m [mh5 {[m
+   margin-top: 0; [m
+ }[m
+ [m
+[32m+[m[32m.centerMiddle {[m
+[32m+[m[32m  text-align: right;[m
+[32m+[m[32m  margin-right: 10rem;[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+ //##### For About-Part #####[m
+ [m
+ .about {[m
+[1mdiff --git a/src/components/layout.js b/src/components/layout.js[m
+[1mindex 7239c1c..ee4d319 100644[m
+[1m--- a/src/components/layout.js[m
+[1m+++ b/src/components/layout.js[m
+[36m@@ -55,7 +55,7 @@[m [mclass Layout extends React.Component {[m
+           marginLeft: `auto`,[m
+           marginRight: `auto`,[m
+           maxWidth: rhythm(pageWidth),[m
+[31m-          //padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,[m
+[32m+[m[32m          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,[m
+         }}>[m
+             <header>{header}</header>[m
+             <main>{children}</main>[m

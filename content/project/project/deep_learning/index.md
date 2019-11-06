@@ -28,7 +28,7 @@ I remember it took me nearly half a day to take each picture, draw the annotatio
 
 I had a fully functioning model trained in just a few days without much prior knowledge of Machine Learning and Deep Learning. A great feeling!
 
-### Into Robotics
+### Into robotics
 
 Another cool part of the project was that I got in touch with an awesome framework called ROS (Robotic Operating System). We didn't use any robotic arms or self-drving capacities in our project but nevertheless ROS is sometimes a great option in case you want your application to run autonomously. This meant in our case switch it on and let it run without any user control (there wasn't even a UI to control the app while it ran). 
 

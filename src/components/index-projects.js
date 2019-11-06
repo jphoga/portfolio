@@ -11,7 +11,7 @@ const IndexPart = (props) => {
   const query = useStaticQuery(graphql`
     fragment squareImage3 on File {
         childImageSharp {
-          fixed(width: 1000, height: 800) {
+          fixed(width: 1000, height: 700) {
             src
             originalName
           }

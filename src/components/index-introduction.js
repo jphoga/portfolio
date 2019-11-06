@@ -33,13 +33,8 @@ const IndexPart = ({ className }) => (
             justifyContent: `left`,
             color: `white`,
             height: `900px`,
-            //width: '109%',
-            //marginLeft: '-5%'
-            //position: 'inherit',
-            //marginBottom: '40%',
-            //zIndex: 99,
-            margin: '0 -40px 0 -40px',
-          }}
+            margin: '0 -60px 0 -60px',
+           }}
         >
           <header 
             style={{

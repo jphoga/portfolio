@@ -25,7 +25,9 @@ h5 {
 
 .gatsby-background-image-robveef_depr {
   position: inherit !important;
+
 }
+
 
 .partContainer {
   margin-bottom: 10rem;
@@ -35,6 +37,12 @@ h5 {
 
 .lowerMargin {
   margin-top: 0; 
+}
+
+.centerMiddle {
+  text-align: right;
+  margin-right: 10rem;
+
 }
 
 //##### For About-Part #####
@@ -79,7 +87,7 @@ h5 {
     height: 18rem;
     margin-bottom: -20%;
     margin: 0 22% -16% 22%;
-    left: -20px;
+    left: 16px;
   }
   .aboutContainer {
     padding: 3px 5px 5px 0;
@@ -103,7 +111,7 @@ h5 {
     width: 22rem;
     height: 14rem;
     margin-bottom: -20%;
-    left: -16px;
+    left: 16px;
   }
   .aboutContainer {
     padding: 3px 5px 5px 0;
@@ -125,7 +133,7 @@ h5 {
 .projectsContainer {
   margin-top: 24px;
   margin-left: 0;
-  margin-right: 4%;
+  margin-right: 0;
   width: 44%;
   text-align: justify;
 }
@@ -145,11 +153,11 @@ h5 {
 }
 
 .projectImage{
-  margin-left: -4rem;
+  margin-left: 4rem;
   margin-top: 6%;
   margin-bottom: 0;
   width: 40rem;
-  height: 26rem;
+  height: 32rem;
 }
 
 @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
@@ -165,7 +173,7 @@ h5 {
     text-align: center;
   }
   .projectImage {
-    width: 20rem;
+    width: 24rem;
     height: 20rem;
   }
 }
@@ -182,7 +190,7 @@ h5 {
     text-align: center;
   }
   .projectImage {
-    width: 20rem;
+    width: 24rem;
     height: 20rem;
     margin:0;
   }
