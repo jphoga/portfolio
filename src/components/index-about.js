@@ -53,7 +53,8 @@ const IndexPart = (props) => {
       flexWrap: 'wrap-reverse',
       justifyContent: `center`,
       marginBottom: rhythm(4),
-      marginTop: rhythm(4),
+      //marginTop: rhythm(4),
+      //backgroundImage: `-webkit-linear-gradient(-80deg, #F4F4F2 40%, white 40%)`,
     }}
     className={styles.partContainer}
     >

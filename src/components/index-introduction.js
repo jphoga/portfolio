@@ -34,6 +34,7 @@ const IndexPart = ({ className }) => (
             color: `white`,
             height: `900px`,
             margin: '0 -60px 0 -60px',
+            marginTop: `-3rem`,
            }}
         >
           <header 
@@ -44,6 +45,11 @@ const IndexPart = ({ className }) => (
             <h1 style={{fontSize: '48px'}}>Hi, my name is Jan.</h1>
             <h2 className={styles.lowerMargin}>I am a Full-Stack Programmer and Consultant.</h2>
           </header>
+          <div style={{
+            width: `100%`,
+            //opacity:`0.5`,
+            backgroundImage: `-webkit-linear-gradient(-86deg, rgba(255,0,0,0) 60%, white 61%)`,
+          }}></div>
         </BackgroundImage>
       )
     }}

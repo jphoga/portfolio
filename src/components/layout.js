@@ -60,9 +60,7 @@ class Layout extends React.Component {
             <header>{header}</header>
             <main>{children}</main>
             <footer style={{ textAlign: `center`, marginTop: `10%`, marginBottom: `4%`}}>
-            {new Date().getFullYear()}, Built by <strong>Jan Paul Hoga</strong> with
-            {` `}
-            Gatsby & React
+            {new Date().getFullYear()}, Built by <strong>Jan Paul Hoga</strong>
             </footer>
         </div>
       </div>
