@@ -1,7 +1,7 @@
 ---
 title: Object Detection on the Edge with Tensorflow
 date: "2019-09-06T23:46:37.121Z"
-description: "Detecting objects and reading signs while driving on the highway."
+description: "Detecting and reading signs while driving on the highway."
 ---
 
 I always thought that the realms of Deep Learning and Data Science were reserved for PhD students and super smart computer science students calculating complex models on high-end computers. 

@@ -18,7 +18,7 @@ const IndexPart = (props) => {
         }
     }, 
     query {
-        image3: file(relativePath: { eq: "undraw_Firmware_jw6u.png" }) {
+        image3: file(relativePath: { eq: "undraw_to_the_moon_v1mv.png" }) {
           ...squareImage3
         }
       site {
@@ -101,6 +101,9 @@ const IndexPart = (props) => {
       <Image
         fixed={query.image3.childImageSharp.fixed}
         className={styles.projectImage}
+        imgStyle={{
+          borderRadius: `50%`,
+        }}
       />
     </div>
   )

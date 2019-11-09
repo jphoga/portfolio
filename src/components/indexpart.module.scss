@@ -53,22 +53,22 @@ h5 {
 .aboutImage{
   //margin-left: rhythm(1 / 4);
   margin-bottom: 0;
-  width: 42rem;
+  width: 44%;
   height: 24rem;
-  left: -80px;
+  left: 0;
 }
 
 .aboutContainer {
   margin-top: 8px;
   //margin-left: -12%;
-  width: 46%;
+  width: 56%;
   text-align: justify;
 }
 
 .aboutTitle {
   text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 12% 8% 4% 8%;
+  margin: 12% 8% 4% 3rem;
   font-size: 28px;
   font-weight: bold;
 
@@ -125,9 +125,9 @@ h5 {
 
 
 .projectsContainer {
-  margin-left: 0;
+  margin-left: -4rem;
   margin-right: 0;
-  width: 36%;
+  width: 50%;
   text-align: justify;
 }
 
@@ -146,9 +146,10 @@ h5 {
 }
 
 .projectImage{
-  margin-left: 4rem;
-  width: 56%;
-  height: 30rem;
+  //margin-left: 4rem;
+  width: 26rem;
+  height: 26rem;
+  //borderRadius: 100%;
 }
 
 @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
@@ -157,12 +158,12 @@ h5 {
     width: 80%;
   }
   .projectsTitle {
-    margin: 16% 20% 4% 20%;
+    margin: 16% 10% 4% 20%;
     text-align: center;
   }
   .projectsContent {
-    text-align: left;
-    margin: 0 8% 16% 8%;
+    text-align: center;
+    margin: 0 0 16% 8%;
   }
   .projectImage {
     width: 24rem;
@@ -172,8 +173,9 @@ h5 {
 
 @media (max-width: $maxWidth) {
   .projectsContainer {
-    padding: 3px 5px 40px 0;
+    padding: 3px 5px 40px 5px;
     width: 100%;
+    margin-left: 0;
   }
   .projectsTitle {
     text-align: center;

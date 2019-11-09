@@ -1,108 +1,71 @@
 ---
-title: Super Cars Rental Shop
+title: Online Market Place for Super Cars 
 date: "2017-07-28T22:40:32.169Z"
-description: For all car lovers - renting and renting out high class cars.
+description: For all car lovers - rent your own high class car.
 ---
 
-To all the people who want to look rich for one day: Rent your high class car and live your dream! At least until your money runs out...
+Here's to all the people who want to look rich for one day: Rent your high class car and live your dream! 
 
-Super Cars was our first project during the Le Wagon bootcamp which we did with the team mates with whom we also will develop and ship our final pitch. This meant team work after a long seven weeks of more or less solo-coding. The stages of developing a product roughly  
+At least until your money runs out... Super Cars was our first project during the Le Wagon bootcamp. In a total of 4-5 days we, my three team mates and me, did our first team work after a long seven weeks of solo-coding. There were two goals to this exercise:
+
+**1.  Create a marketplace web app (anything like Airbnb) from scratch**
+
+This is to make yourself comfortable with coding in a team to complete a prototype in a really short amount of time (final pitch I see you coming!).
+
+**2.  Combining all the things we learned to create a working prototype** 
+
+Combining design tools, front-end (mainly **CSS, HTML, JavaScript**) and back-end (**SQL and Ruby on Rails**), to create our first fully working web app which we can put on our resume (well, at least if you want someone to see it). 
+
+### The stages of developing a product  
+
+A product sprint until the final pitch has about the following steps:
+
+1. Decide for an idea and create a business plan
+2. Create a mock-up to determine all functions and the design
+3. Create the database schema and the routings
+4. Start with back-end and front-end coding
+5. Test your prototype back and forth and forth and back again
+6. Prepare your pitch 
+7. Pitch!
+
+To actually create a working prototype you need an idea. So, after long discussion and many mugs of coffee (we had also Island and Airplane rental shops in mind), we settled for a car rental site where people can rent out their high class cars while others can rent these for a specific time.
+
+The idea (=business model) leads to a first design without coding yet. We used [Figma](https://www.figma.com) to create an actually clickable kind of Powerpoint like version of our app. This stage (and tool) is especially useful when presenting to an audience (e.g. your client) in order to make sure you included all the necessary functions and propose a nice design. By the way, you can actually use Figma to generate all the front-end code out of your mock-up app but I never tried if it really works (it would take a lot of fun away too!).
+
+OK, the design is fixed - what's next? The **database** and **routes design** of course. For people who prefer designing websites and powerpoints by using shapes, colors and fonts, this is probably the hardest part. Since this web app will be a CRUD (**C**reate, **R**ead, **U**pdate, **D**etele) app, you need to store a lot of things into a database to be able to recall them later. This can things like car models, pictures (specificially their addresses in the web), car prices, user login data and many more.
+
+Designing database schema is actually pretty abstract and must be done well in order to be link all data that belongs together. Later changes are possible but a nuisance especially in production, so plan and design well!
+
+**Routes** are another topic to plan before the actual coding starts. A route is the address to a page or sub-page of your app which could include the list of all cars, the detailed page of a specific car before booking or the booking process of that car. Ruby on Rails helps you with this process by adding id's of e.g. your car automatically to the route of the specific detailed page, so its actually pretty easy. 
+
+### The coding starts
+
+Now we are ready to code, right? Yes, but please make sure you use a project management tool (Excel is fine too!) to keep track of each members tasks! So divide your team into front-end and back-end developers (and a team lead if possible) and start coding! You only have two and a half days left till your pitch. 
+
+To make it quick - we had one front-end developer, one back-end developer, a biz team lead and a developer team-lead (that was me by the way). I had the pleasure of merging all git pull requests into our master. Not always easy and I can fully understand if dev-leads let their people do the testing and merging locally first by themselves.
+
+This is how our landing page looks:
+
+![Landing page](./supercar_index.jpg)
+
+You can search for a location and time and get a list of available cars ready to book. Of course this is just a prototype so no real cars in there. That also meant we had to add **seeds** to the database, meaning pictures and prices and all the other necessary data to show a working page whithout going live yet. The seeds need to be realistic or otherwise you will not convince investors to give you money in building the real deal.
+
+But the pictures also have to look cool so we chose a lot of probably too expensive cars which might never be listed: 
+
+![super car list](./supercarslist.jpg)
+
+Don't forget to test your prototype before the pitch and do not touch the code the day of the pitch! Actually about one our before our pitch we noticed that the cars are coming out in the wrong order. Not that big a problem but it disrupted the story of our pitch somehow. Luckily it was an easy fix but you really start getting nervous touching code which will be presented to a hundred people in under one hour...
+
+You can check out our [super cars protoype here](https://supercarslewagon.herokuapp.com) - have a look!
 
 
-## On deer horse aboard tritely yikes and much
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
 
-### Overlaid the jeepers uselessly much excluding
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
 
-### According a funnily until pre-set or arrogant well cheerful
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
-
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
