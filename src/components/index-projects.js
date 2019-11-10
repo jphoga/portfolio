@@ -102,7 +102,7 @@ const IndexPart = (props) => {
         fixed={query.image3.childImageSharp.fixed}
         className={styles.projectImage}
         imgStyle={{
-          borderRadius: `50%`,
+          borderRadius: `20%`,
         }}
       />
     </div>

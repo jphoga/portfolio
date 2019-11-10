@@ -8,13 +8,13 @@ description: A one-stop shop for crypto currency and networking.
 
 Our final project at the Le Wagon bootcamp in Tokyo (July/August 2018) was a tough and a fun one at the same time: 
 
-_Tough_ because we barely had two weeks to go from the initial idea to a full-fledged web app. And then we had to pitch the app in front of about 100 people coming to Impact Hub for our final batch presentations (thanks David!). 
+Tough because we barely had two weeks to go from the initial idea to a full-fledged web app. And then we had to pitch the app to about a 100 people coming to Impact Hub Tokyo for our final presentations (thanks David!). 
 
-But it was also _fun_ because we could finally create something cool out of nothing (well, not exactly nothing since we used established frameworks, existing languagues and other resources available). This feeling of being able to use an abstract language to create a functioning and (hopefully) useful website was what hooked me after all to follow my career in the tech-world.  
+But it was also fun because we could finally create something cool out of nothing (well, not exactly nothing since we of course used established frameworks, existing languagues and other resources available). This feeling of being able to use an abstract language to create a functioning and (hopefully) useful website was what hooked me after all to follow my career in the tech-world.  
 
 ### So what did we create? 
 
-We, that is four coding students from different professions and countries (Peru, China, US and Germany), created a **One-Stop Shop for Crypto Currencies** monitoring prices and news mixed with social media. Check out the link to our [Coin-Spread Page](http://www.coin-spread.com) (still running on Heroku after all this time).
+We, four coding students from different professions and countries (Peru, China, US and Germany), created a **One-Stop Shop for Crypto Currencies** monitoring prices and news mixed with social media. Check out the link to our [Coin-Spread](http://www.coin-spread.com) prototype (still running on Heroku after all this time).
 
 ![Coin Spread Index Page](./coinspread.jpg)
 

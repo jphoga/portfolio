@@ -56,7 +56,7 @@ But the pictures also have to look cool so we chose a lot of probably too expens
 
 Don't forget to test your prototype before the pitch and do not touch the code the day of the pitch! Actually about one our before our pitch we noticed that the cars are coming out in the wrong order. Not that big a problem but it disrupted the story of our pitch somehow. Luckily it was an easy fix but you really start getting nervous touching code which will be presented to a hundred people in under one hour...
 
-You can check out our [super cars protoype here](https://supercarslewagon.herokuapp.com) - have a look!
+You can check out our [Super Cars](https://supercarslewagon.herokuapp.com) protoype here - have a look!
 
 
 

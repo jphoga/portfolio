@@ -44,7 +44,8 @@ const IndexPart = (props) => {
   )
 
   const linkToLinkedin = ' ' + query.site.siteMetadata.social.linkedin.link;
-  const hitMe = ' Hit me up on Linkedin!'; 
+  const hitMe = ' hit me up on Linkedin!'; 
+  const codingJourney = ' coding journey'; 
 
   return (
     <div
@@ -72,8 +73,12 @@ const IndexPart = (props) => {
         </header>
       </Link>  
         <main className={styles.aboutContent}>
-          <p>Hi, my name is Jan. I am a German switching between 
-          life in Germany and Japan. I am very lucky that I can follow my passion in programming and technology while working as a consultant.  
+          <p>Hi, my name is Jan. I am a Programmer switching between 
+          life in Germany and Japan. I am very lucky that I can follow my passion in programming and 
+          technology while working as a consultant in Japan. Find out more about  
+          <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href="./about">
+             {codingJourney}
+          </a> or   
           <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
             {hitMe}
           </a>  </p>

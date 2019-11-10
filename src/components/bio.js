@@ -71,7 +71,7 @@ const Bio = () => {
         <a target="_blank" href={social.linkedin.link}>
           Connect with me on LinkedIn
         </a>
-      </p>
+      </p> 
     </div>
   )
 }
