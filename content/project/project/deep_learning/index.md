@@ -1,5 +1,5 @@
 ---
-title: Object Detection on the Edge with Tensorflow
+title: Deep Learning on the Edge
 date: "2019-09-06T23:46:37.121Z"
 description: "Detecting and reading signs while driving on the highway."
 ---

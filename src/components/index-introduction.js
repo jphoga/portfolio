@@ -48,7 +48,7 @@ const IndexPart = ({ className }) => (
           <div style={{
             width: `100%`,
             //opacity:`0.5`,
-            backgroundImage: `-webkit-linear-gradient(-86deg, rgba(255,0,0,0) 70%, white 72%)`,
+            backgroundImage: `-webkit-linear-gradient(-94deg, rgba(255,0,0,0) 70%, white 72%)`,
           }}></div>
         </BackgroundImage>
       )

@@ -1,5 +1,5 @@
 ---
-title: Crypto Currency Dashboard - Coin Spread 
+title: Crypto Currency Dashboard 
 date: "2018-07-01T22:12:03.284Z"
 description: A one-stop shop for crypto currency and networking. 
 ---
