@@ -1,3 +1,5 @@
+@import url('https://emoji-css.afeld.me/emoji.css');
+
 $smallerDevicesMaxWidth: 360px;
 $maxWidth: 700px;
 $minWidth: 701px;
@@ -9,6 +11,13 @@ $tabletMaxWidth: 1400px;
 /* ####### */
 
 
+//hide paris sentence when device is too small
+
+@media (max-width: $tabletMaxWidth) {
+  .hideIt {
+    opacity: 0;
+  }
+}
 
 h5 {
   font-size: 18px;
@@ -134,7 +143,7 @@ h5 {
 .projectsTitle {
   text-align: left;
   //border-bottom: solid #2685D0 2px;
-  margin: 8% 0 -2% 3%;
+  margin: 8% 0 -2% 2%;
   font-size: 28px;
   font-weight: bold;
 }

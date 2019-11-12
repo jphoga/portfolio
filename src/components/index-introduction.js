@@ -44,11 +44,14 @@ const IndexPart = ({ className }) => (
             }}>
             <h1 style={{fontSize: '48px'}}>Hi, my name is Jan.</h1>
             <h2 className={styles.lowerMargin}>I am a Full-Stack Programmer and Consultant.</h2>
+            
+             {/* <p className={styles.hideIt} style={{textAlign: 'right', marginRight: '10rem', 
+              marginTop: '2.5rem', fontStyle: 'italic' }}>This is not Paris.</p> */}
           </header>
           <div style={{
             width: `100%`,
             //opacity:`0.5`,
-            backgroundImage: `-webkit-linear-gradient(-94deg, rgba(255,0,0,0) 70%, white 72%)`,
+            backgroundImage: `-webkit-linear-gradient(-90deg, rgba(255,0,0,0) 85%, white 86%)`,
           }}></div>
         </BackgroundImage>
       )

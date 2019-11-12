@@ -8,7 +8,7 @@ The term **Internet of Things** always made me curious but when it comes down to
 
 ![IoT Image by Tumisu https://pixabay.com](./iot.png)
 
-After taking a two month break from work to learn building web apps at [Le Wagon}(https://www.lewagon.com/) bootcamp, I discussed with my boss what I could do to help the company with my coding skills. He put then me in the rather new "Internet of Things" sector - and here I am (still), consulting clients about how to adopt **Industry 4.0** (another big word) and building solutions to support their digital transformation needs. 
+After taking a two month break from work to learn building web apps at [Le Wagon](https://www.lewagon.com/) bootcamp, I discussed with my boss what I could do to help the company with my coding skills. He put then me in the rather new "Internet of Things" sector - and here I am (still), consulting clients about how to adopt **Industry 4.0** (another big word) and building solutions to support their digital transformation needs. 
 
 Since then I learned quite a bit about IoT. Especially that it is not only about the coffee machine communicating with the toaster as to when coffee and toast should be ready (although coffee and toast are really nice together). Our sector is working with clients to bring ideas of Industry 4.0 to their companies, that is, mainly their factories.
 
