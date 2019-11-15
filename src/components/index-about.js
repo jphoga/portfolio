@@ -73,8 +73,7 @@ const IndexPart = (props) => {
         </header>
       </Link>  
         <main className={styles.aboutContent}>
-          <p>I am Jan, a German programmer living in Japan. I feel very lucky that I can follow my passion in 
-          technology and coding while working as a consultant in Tokyo <i class="em em-cherry_blossom" 
+          <p>I am Jan, a German programmer and consultant living in Tokyo <i class="em em-cherry_blossom" 
           aria-role="presentation" aria-label="CHERRY BLOSSOM"></i>
           <i class="em em-tokyo_tower" aria-role="presentation" aria-label="TOKYO TOWER"></i>
           <i class="em em-jp" aria-role="presentation" aria-label="Japan Flag"></i>. 
