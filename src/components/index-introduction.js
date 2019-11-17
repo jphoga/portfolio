@@ -9,7 +9,7 @@ const IndexPart = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "tokyo-air.png" }) {
+        desktop: file(relativePath: { eq: "tokyo-air.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
