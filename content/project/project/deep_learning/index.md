@@ -1,7 +1,7 @@
 ---
 title: Deep Learning on the Edge
 date: "2019-09-06T23:46:37.121Z"
-description: "Detecting objects while driving on the highway."
+description: Detecting objects while driving on the highway
 ---
 
 I always thought that the realms of Deep Learning and Data Science were reserved for PhD students and insanely smart geeks calculating complex models on high-end computers. 

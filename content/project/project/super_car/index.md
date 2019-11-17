@@ -1,7 +1,7 @@
 ---
 title: Market Place for Super Cars 
 date: "2017-07-28T22:40:32.169Z"
-description: Rent your own high class car online.
+description: Rent your own high class car online
 ---
 
 Here's to all the people who want to look rich for one day: Rent your high class car and live your dream! 

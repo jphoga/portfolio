@@ -1,7 +1,7 @@
 ---
 title: Internet of Things Platform
 date: "2019-03-28T22:40:32.169Z"
-description: An IoT web app to visualize sensor data in factories.
+description: An IoT web app to visualize sensor data in factories
 ---
 
 The term **Internet of Things** always made me curious but when it comes down to explain it I was a bit at a loss. Like its sibling **Artificial Intelligence** you can read it everywhere like an omen for a new age, but what does it actually mean when you work in this field? 

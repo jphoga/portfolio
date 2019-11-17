@@ -45,7 +45,7 @@ const IndexPart = (props) => {
 
   const linkToLinkedin = ' ' + query.site.siteMetadata.social.linkedin.link;
   const hitMe = ' hit me up on Linkedin!'; 
-  const codingJourney = ' coding journey'; 
+  const codingJourney = ' unusual coding journey'; 
 
   return (
     <div
@@ -73,11 +73,12 @@ const IndexPart = (props) => {
         </header>
       </Link>  
         <main className={styles.aboutContent}>
-          <p>I am Jan, a German programmer and consultant living in Tokyo <i class="em em-cherry_blossom" 
+          <p>Hi, I am Jan (pronounced 'Yan' thanks to the strange German alphabet). 
+             I am a programmer and consultant living in beautiful Tokyo <i class="em em-cherry_blossom" 
           aria-role="presentation" aria-label="CHERRY BLOSSOM"></i>
           <i class="em em-tokyo_tower" aria-role="presentation" aria-label="TOKYO TOWER"></i>
-          <i class="em em-jp" aria-role="presentation" aria-label="Japan Flag"></i>. 
-          Find out more about my rather unusual
+          <i class="em em-jp" aria-role="presentation" aria-label="Japan Flag"></i>  
+          &nbsp; Find out more about me and my rather 
           <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href="./about">
              {codingJourney}
           </a> and   
