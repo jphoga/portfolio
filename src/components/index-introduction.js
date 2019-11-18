@@ -42,8 +42,8 @@ const IndexPart = ({ className }) => (
               width:`80%`,
               marginLeft: '3rem',
             }}>
-            <h1 style={{fontSize: '48px'}}>Hi, my name is Jan.</h1>
-            <h2 className={styles.lowerMargin}>I am a Full-Stack Programmer and Consultant.</h2>
+            <h1 style={{fontSize: '48px', marginLeft: '2%'}}>Hi, my name is Jan.</h1>
+            <h2 style={{marginLeft: '2%'}} className={styles.lowerMargin}>I am a Full-Stack Programmer and Consultant.</h2>
             
              {/* <p className={styles.hideIt} style={{textAlign: 'right', marginRight: '10rem', 
               marginTop: '2.5rem', fontStyle: 'italic' }}>This is not Paris.</p> */}

@@ -10,7 +10,7 @@ class Navbar extends React.Component {
         
         <ul className={styles.headerMenu}>
           {this.props.headerProps.map(item => (
-            <li key={item.link} >
+            <li key={item.link}>
               <Link style={{ boxShadow: `none` }} to={item.link} activeClassName={styles.currentPage}>
                 {item.name}
               </Link>

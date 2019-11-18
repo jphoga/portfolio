@@ -39,7 +39,7 @@ $tabletMaxWidth: 1350px;
 
 @media (max-width: $smallerDevicesMaxWidth) {
   .header-icon {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 // headerMenu
@@ -83,19 +83,29 @@ $tabletMaxWidth: 1350px;
 
 @media (max-width: $smallerDevicesMaxWidth) {
   .headerMenu li a {
-    margin: 3px 5px 5px 0;
-    font-size: 13px;
+    margin: 3px 16px 16px 0;
+    font-size: 16px;
   }
   .fas {
     font-size: 13px;
   }
   .headerMenu {
-    margin-left: -12px;
+    margin-left: 0;
    }
 }
+
+@media (min-width: $smallerDevicesMaxWidth) and (max-width: $minWidth) {
+  .headerMenu li a {
+    margin: 3px 16px 16px 0;
+  }
+  .headerMenu {
+    margin-left: 0;
+   }
+}
+
 @media (min-width: $minWidth) {
   .headerMenu li a {
-    margin: 15px 15px;
+    margin: 16px 16px;
     padding: 5px 5px;
     font-size: 22px;
   }
