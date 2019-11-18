@@ -47,12 +47,15 @@ $tabletMaxWidth: 1350px;
   list-style: none;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  margin-left: -24px;
+  //margin-left: -24px;
   display: flex;
   align-items: center;
 }
 
 .headerMenu li a {
+  margin: 16px 16px;
+  padding: 5px 5px;
+  font-size: 22px;
   display: block;
   text-decoration: none;
 }
@@ -73,18 +76,32 @@ $tabletMaxWidth: 1350px;
     margin: 3px 10px 5px 0;
     font-size: 16px;
   }
+  .headerMenu {
+    //margin-left: 16px !important;
+  }
 }
 
 @media (min-width: $minWidth) and (max-width: $tabletMaxWidth) {
   .headerMenu {
-    margin-left: -16px;
+    //margin-left: -16px;
+   }
+}
+
+@media (min-width: $smallerDevicesMaxWidth) and (max-width: $minWidth) {
+  .headerMenu li a {
+    margin: 3px 16px 24px 0;
+  }
+  .headerMenu {
+    margin-left: 0;
    }
 }
 
 @media (max-width: $smallerDevicesMaxWidth) {
   .headerMenu li a {
-    margin: 3px 16px 16px 0;
+    margin: 3px 16px 24px 0;
     font-size: 16px;
+    //margin: 6px 6px;
+    padding: 5px 5px;
   }
   .fas {
     font-size: 13px;
@@ -94,22 +111,14 @@ $tabletMaxWidth: 1350px;
    }
 }
 
-@media (min-width: $smallerDevicesMaxWidth) and (max-width: $minWidth) {
-  .headerMenu li a {
-    margin: 3px 16px 16px 0;
-  }
-  .headerMenu {
-    margin-left: 0;
-   }
-}
 
-@media (min-width: $minWidth) {
-  .headerMenu li a {
-    margin: 16px 16px;
-    padding: 5px 5px;
-    font-size: 22px;
-  }
-  .headerMenu {
-    margin-left: -24px;
-   }
-}
+// @media (min-width: $minWidth) {
+//   .headerMenu li a {
+//     margin: 16px 16px;
+//     padding: 5px 5px;
+//     font-size: 22px;
+//   }
+//   .headerMenu {
+//     margin-left: -24px;
+//    }
+// }

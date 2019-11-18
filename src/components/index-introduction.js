@@ -33,7 +33,7 @@ const IndexPart = ({ className }) => (
             justifyContent: `left`,
             color: `white`,
             height: `900px`,
-            margin: '0 -60px 0 -60px',
+            margin: '0 -40px 0 -40px',
             marginTop: `-3rem`,
            }}
         >
