@@ -6,7 +6,7 @@ import { rhythm, scale } from "../utils/typography"
 import { root } from "postcss-selector-parser";
 
 const pageStyle = {
-  margin: '0 40px 0 40px',
+  margin: '0 5px 0 5px',
 };
 
 class Layout extends React.Component {

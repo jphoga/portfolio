@@ -74,17 +74,18 @@ const IndexPart = (props) => {
       </Link>  
         <main className={styles.aboutContent}>
           <p>Hi, I am Jan (pronounced 'Yan' thanks to the strange German alphabet). 
-             I am a programmer and consultant living in beautiful Tokyo <i class="em em-cherry_blossom" 
-          aria-role="presentation" aria-label="CHERRY BLOSSOM"></i>
-          <i class="em em-tokyo_tower" aria-role="presentation" aria-label="TOKYO TOWER"></i>
-          <i class="em em-jp" aria-role="presentation" aria-label="Japan Flag"></i>  
-          &nbsp; Find out more about me and my rather 
-          <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href="./about">
-             {codingJourney}
-          </a> and   
-          <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
+             I am a programmer and consultant living in beautiful Tokyo 
+             <i className="em em-cherry_blossom" aria-role="presentation" aria-label="CHERRY BLOSSOM"></i>
+            <i className="em em-tokyo_tower" aria-role="presentation" aria-label="TOKYO TOWER"></i>
+            <i className="em em-jp" aria-role="presentation" aria-label="Japan Flag"></i>  
+              &nbsp; Find out more about me and my rather 
+            <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href="./about">
+              {codingJourney}
+            </a> and   
+            <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
             {hitMe}
-          </a>  </p>
+            </a>  
+          </p>
         </main>
       </div>
     </div>
