@@ -12,25 +12,23 @@ Well, for the ongoing research in Deep Learning the PhD student part is definite
 
 ### A whole new world of detection
 
-The project I got assigned to uses Deep Learning for **object detection**, a method to detect pre-trained objects inside a frame while also telling you where these objects are by applying a bounding box around it. There are other Deep Learning areas like **image classification** (classifying the whole image to a category e.g. "National Park", "Desert" etc.) or **natural language processing** (detecting words and sentences out of spoken or written language). 
+The project I got assigned to uses Deep Learning for **object detection**, a method to detect pre-trained objects inside a frame while also telling you where these objects are by applying a bounding box around it. There are other Deep Learning areas too like **image classification** (classifying the whole image to a category e.g. "National Park", "Desert" etc.) or **natural language processing** (detecting words and sentences out of spoken or written language). 
 
 Deep Learning is just one part of a broader world of Machine Learning with many more applications. But you have to start somewhere and object detection is definitely an interesting way to deep dive into Deep Learning. 
 
-I won't go too much into the details of my project here (and I can't due to disclosure issues), but in general we built an **_edge-server_** (as opposite to a **_cloud-server_** like an **Ec2 on AWS**) connected to a camera (drive-recorder) and a GPS-card to recognize objects on the road while driving in your car. This can be signs on the road like stop signs or even other cars and their number plates. The really fun thing is to combine this with an **OCR model** to actually read what the signs says (e.g. "30 miles to Tokyo").
+I won't go too much into the details of my project here (and I can't due to disclosure issues), but in general we built an _edge-server_ (as opposite to a _cloud-server_ like an **Ec2 on AWS**). This edge-server is connected to a camera (drive-recorder) and a GPS-card to recognize objects on the road while driving in your car. This can be signs on the road like stop signs or even other cars and their number plates. The really fun thing is to combine this with an **OCR model** to actually read what the signs says (e.g. "30 miles to Tokyo! Yes!").
 
-Training the model took me sometime because I had to figure out how transfer learning works with Tensorflow (different versions in basically all necessary programs from Linux to Pyhton to CUDA drove me nearly mad!). But after completing the setup of the training environment (I used an **AWS Ec2 instance** with a nice big GPU attached), you just need some nice data and the fun begins (haha, you wish!). 
+Training the model took me sometime because I had to figure out how transfer learning works with Tensorflow (different versions in basically all necessary programs from Linux to Python to CUDA drove me nearly mad!). But after completing the setup of the training environment (I used an **AWS Ec2 instance** with a nice big GPU attached), I just needed some nice data and the fun can begin (haha, you wish!). 
 
 ### Annotation hell
 
-Data means in our case lot's of pictures while driving down the highway. My colleague took up the challenge and recorded some parts of his way to his weekend camping trip. I took the video, split it into 24 frames (= jpgs) per second and classified the pictures into different categories by hand (this is of course what we want to let the model do for you in the future).
+Data means in our case lot's of pictures while driving down the highway. My colleague took up the challenge and recorded some parts of his way to his weekend camping ground. I took the video, split it into 24 frames (= jpgs) per second and classified the pictures into different categories by hand (this is of course what we want to let the model do for you in the future!).
 
-I remember it took me nearly half a day for all 1000 pictures to draw the annotation box around the object and name the file (this pretty [awesome annotation tool](https://github.com/tzutalin/labelImg) came really in handy). Now I could finally train the model and after a few tries (be aware of OpenCV's [color handling of RGB](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/)!) it finally worked: 
-
-I had a fully functioning model trained in just a few days without much prior knowledge of Machine Learning and Deep Learning. A great feeling!
+I remember it took me nearly half a day for all 1000 pictures to draw the annotation box around the object and name the file (this pretty [awesome annotation tool](https://github.com/tzutalin/labelImg) was really helppful). Now I could finally train the model and after a few tries (be aware of OpenCV's [color handling of RGB](https://www.learnopencv.com/why-does-opencv-use-bgr-color-format/)!) it finally worked: I had a fully functioning Tensorflow object detection model trained in just a few days without much prior knowledge of Machine Learning and Deep Learning. A great feeling!
 
 ### Into robotics
 
-Another reason why this project was awesome was the fact that I got in touch with a framework called [ROS (Robotic Operating System)](https://www.ros.org/). We didn't do any robotic arms or self-drving capacities in our project but nevertheless ROS is sometimes a great option in case you want your application to run autonomously. This meant in our case: switch it on and let it run without any user control (there wasn't even a UI to control the app e.g. while driving in the car). 
+Another reason why this project was awesome lay in the fact that I got in touch with a framework called [ROS (Robotic Operating System)](https://www.ros.org/). We didn't do any robotic arms or self-driving cars in our project but nevertheless ROS is sometimes a great option when you want your application to run _autonomously_. This meant in our case: switch it on and let it run without any user control. There wasn't even a UI to control the app - pretty hard (and forbidden!) while driving anyways. 
 
 So because of this project I got into Deep Learning and Robotics at the same time - _how cool is that_? 
 
@@ -39,6 +37,7 @@ I could even visit this years [ROS Con](https://roscon.ros.org/2019/) (yes, ther
 ![RosCon](./roscon.png)
 
 Happy Deep Learning and robot development everyone!
+<i class="em em-robot_face" aria-role="presentation" aria-label="ROBOT FACE"></i>
 
 
 
