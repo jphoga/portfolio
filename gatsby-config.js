@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jan's Projects`,
+    title: `Jan's Coding Life`,
     author: `Jan Paul Hoga`,
-    description: `Some projects I did at work and at the Le Wagon bootcamp.`,
+    description: `Hi, I am Jan. A German full-stack programmer and consultant living in Japan. 
+                  Follow me on my coding journey and see what life is like as a programmer in Tokyo.`,
     siteUrl: `https://google.com/`,
     social: {
       github: {
