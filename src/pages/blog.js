@@ -14,7 +14,10 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO
+          title='My blog'
+          description='Some infos about me and my life in Japan'
+        />
         <Bio />
         {posts.map(({ node }) => {
           if ((node.frontmatter.title != "About me") || (node.fields.slug != "About me")) {

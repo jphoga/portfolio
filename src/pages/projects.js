@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="My projects" />
         <h1
           style={{
             marginTop: rhythm(1),

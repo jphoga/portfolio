@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jan's Coding Life`,
+    title: `Jan's Portfolio`,
     author: `Jan Paul Hoga`,
     description: `Hi, I am Jan. A German full-stack programmer and consultant living in Japan. 
                   Follow me on my coding journey and see what life is like as a programmer in Tokyo.`,
