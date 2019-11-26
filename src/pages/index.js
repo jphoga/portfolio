@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Landing Page" />
+        <SEO title="Jan Paul Hoga" />
         {/* <Bio /> */}
         <IndexIntro></IndexIntro>
         <IndexAbout></IndexAbout>
