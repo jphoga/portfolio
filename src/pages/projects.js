@@ -9,7 +9,7 @@ import { rhythm, scale } from "../utils/typography"
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const siteTitle = data.site.siteMetadata.project
     const posts = data.allMarkdownRemark.edges
 
     // In case of adding date under each project, copy below under project title
@@ -84,7 +84,7 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        project
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

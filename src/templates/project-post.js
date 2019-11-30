@@ -10,7 +10,7 @@ import styles from "./blogpost.scss";
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = this.props.data.site.siteMetadata.project
     const { previous, next } = this.props.pageContext
 
     return (
@@ -87,7 +87,7 @@ export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
-        title
+        project
         author
       }
     }

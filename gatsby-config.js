@@ -5,6 +5,7 @@ module.exports = {
     description: `Hi, I am Jan. A German full-stack programmer and consultant living in Japan. 
                   Follow me on my coding journey and see what life is like as a programmer in Tokyo.`,
     siteUrl: `https://google.com/`,
+    project: `Jan's Projects`,
     social: {
       github: {
         link: `https://github.com/jphoga`,
