@@ -14,9 +14,9 @@ Since then I learned quite a bit about IoT. Especially that it is not only about
 
 ### What is Industry 4.0?
 
-When I talk about Industry 4.0 I mean all the new areas that are hyped lately including **AI, IoT, Cloud and Edge Computing** and other cool sounding stuff. This is foremost to help the client stay competitive, not the least in light of new consumer demands like **individualized products** to be ready **on-demand**. 
+When I talk about Industry 4.0 I mean all the new areas that are hyped lately including **AI, IoT, Cloud and Edge Computing** and other cool sounding stuff, and put it to use in industrial manufacturing. This is foremost to help the client stay competitive, not the least in light of new consumer demands like **individualized products** to be ready **on-demand**. 
 
-Since we are the IoT sector, out of all this new cool stuff out there we mainly focus on IoT (sounds logical). If you take the idea of IoT to a manufacturer, the first thing which comes in mind is to make use of all the data you can collect inside your manufacturing process (that is a lot I can tell you!). This can either be data formerly written on paper by the factory staff, but also sensor data from the environment and all those **PLCs** (small computers used to control equipment and machinery) just waiting to be streamed and collected for further analysis. 
+Since we are the IoT sector, out of all this new cool stuff out there we mainly focus on IoT (sounds logical). If you take the idea of IoT to a manufacturer, the first thing which comes to mind is to make use of all the data you can collect inside your manufacturing process (that is a lot I can tell you!). This can either be data formerly written on paper by the factory staff, but also sensor data from the environment and all those **PLCs** (small computers used to control equipment and machinery) just waiting to be streamed and collected for further analysis. 
 
 ### What we build to help factory management in their daily struggle
 
@@ -30,9 +30,9 @@ We also built an alert system to send notifications to the maintenance team when
 
 ### My first Cloud architecture solution
 
-For the app we used **Java Spring Boot** - a nice web app framework, but if you are used to Python or Ruby you will be surprised how much code you need to write! But until the data arrives at the app it has to go through the network and a few Cloud services for data preparation and storage. 
+For the app we used **Java Spring Boot** - a nice web app framework, but if you are used to Python or Ruby you will be surprised how much code you need to write! 
 
-We used [AWS](https://aws.amazon.com/) (as most people nowadays, since it has a market share of a stupendous 50%). As services we chose the following to create our IoT platform:
+Until the data arrives at the app it has to go through the network and a few Cloud services for data preparation and storage. We used [AWS](https://aws.amazon.com/) (as most people nowadays - it has a market share of a stupendous 50%). As services we chose the following to create our IoT platform:
 
 - IoT Core
 - Kinesis Firehose
