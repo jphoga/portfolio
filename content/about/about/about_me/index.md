@@ -25,7 +25,7 @@ The programming game was on again when I got my first job - coding here I come! 
 
 I was also not quite sure how to build something fun & useful with my basic Java skills from university classes, and so I was a bit at a loss for some time...
 
-Luckily I chose a profession which was close to the things I wanted to learn. So while working as an IT-consultant implementing ERP systems all over the planet, I was handling lots of program code while creating design documents and testing & debugging financial programs. Apart from that, being a consultant has its benefits too and needs its own set of skills to be polished, which come quite in handy when there are problems to be analyzed, clients to be convinced or just by being quick & efficient with Excel and Powerpoint.
+Luckily I chose a profession which was close to the things I wanted to learn. So while working as an IT-consultant implementing ERP systems all over the planet, I was handling lots of program code while creating design documents and testing & debugging financial programs. Apart from that, being a consultant has its benefits and needs its own set of skills to be polished, which come in handy when there are problems to be analyzed, clients to be convinced or just by being quick & efficient with Excel and Powerpoint.
 
 ## Le Wagon bootcamp - deep dive into coding
 
