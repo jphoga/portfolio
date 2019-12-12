@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 const IndexPart = (props) => {
   const query = useStaticQuery(graphql`

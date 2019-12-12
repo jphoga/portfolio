@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 import Navbar from "./navbar";
 
 import { rhythm, scale } from "../utils/typography"
-import { root } from "postcss-selector-parser";
 
 const pageStyle = {
   margin: '0 5px 0 5px',

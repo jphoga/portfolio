@@ -1,14 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import IndexIntro from "../components/index-introduction"
 import IndexAbout from "../components/index-about"
 import IndexProjects from "../components/index-projects"
-import IndexBlog from "../components/index-blog"
 
 class HomeIndex extends React.Component {
   render() {

@@ -33,7 +33,7 @@ class AboutPage extends React.Component {
                 marginBottom: rhythm(1),
               }}
             >
-              ...a small history of my coding life...
+              ...a short history of my coding life...
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: aboutme.html }} />

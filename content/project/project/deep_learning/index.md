@@ -14,13 +14,13 @@ Well, for the ongoing research in Deep Learning the PhD student part is probably
 
 The project I got assigned to uses Deep Learning for **object detection**, a method to detect pre-trained objects inside a frame while also telling you where these objects are by applying a bounding box around it. There are other Deep Learning areas too like **image classification** (classifying the whole image to a category e.g. "National Park", "Desert" etc.) or **natural language processing** (detecting words and sentences out of spoken or written language). 
 
-Deep Learning is just one part of a broader world of Machine Learning with many more applications. But you have to start somewhere and object detection is definitely an interesting way to deep dive into "Deep" art of Machine Learning. Here's the Shibuya crossing seen by Tensorflow Object Detection API (cars and persons are quite accurately detected): 
+Deep Learning is just one part of a broader world of Machine Learning with many more applications. But you have to start somewhere and object detection is definitely an interesting way to deep dive into the "deep" art of Machine Learning. Here's the Shibuya crossing seen by Tensorflow Object Detection API (cars and persons are quite accurately detected): 
 
 ![Shibuya](./shibuya.jpg)
 
 I won't go too much into the details of my project here (and I can't due to disclosure issues), but in general we built an _edge server_ (as opposite to a _cloud server_ like an **Ec2 on AWS**). This edge server is connected to a camera (normally a drive-recorder) and a GPS-card to recognize objects on the road while driving in your car. This can be signs on the road like stop signs or even other cars and their number plates. The really fun thing is to combine this with an **OCR model** to actually read what the signs says ("**30 miles to Tokyo**"! Yes!).
 
-Training the model took me sometime because I had to figure out how transfer learning works with Tensorflow (different versions in basically all necessary programs from Linux to Python to CUDA drove me nearly mad!). But after completing the tedious setup of the training environment (I used an **AWS Ec2 instance** named __p2.xlarge__ which has a GPU attached and the hour price is just about one dollar), I just needed some nice data for the training and the fun could begin (haha, you wish!). 
+Training the model took me some time because I had to figure out how transfer learning works with Tensorflow (different versions in basically all necessary programs from Linux to Python to CUDA drove me nearly mad!). But after completing the tedious setup of the training environment (I used an **AWS Ec2 instance** named __p2.xlarge__ which has a GPU attached and the hour price is just about one dollar), I just needed some nice data for the training and the fun could begin (haha, you wish!). 
 
 ### Annotation hell
 

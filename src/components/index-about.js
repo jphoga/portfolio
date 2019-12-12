@@ -4,7 +4,7 @@ import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
 import { Link } from "gatsby";
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm} from "../utils/typography"
 
 const IndexPart = (props) => {
   const query = useStaticQuery(graphql`
@@ -82,7 +82,7 @@ const IndexPart = (props) => {
             <a style={{ boxShadow: `none`, fontWeight: `bold`}} href="./about">
               {codingJourney}
             </a> and   
-            <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' href={linkToLinkedin}>
+            <a style={{ boxShadow: `none`, fontWeight: `bold`}} target='_blank' rel="noopener noreferrer" href={linkToLinkedin}>
             {hitMe}
             </a>  
           </p>

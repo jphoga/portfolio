@@ -4,7 +4,7 @@ import Image from "gatsby-image";
 import styles from "./indexpart.module.scss";
 import { Link } from "gatsby";
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 const IndexPart = (props) => {
   const posts = props
@@ -64,7 +64,7 @@ const IndexPart = (props) => {
        <main className={styles.projectsContent}>
        
         {posts.node.map(({ node }) => {
-          if (node.frontmatter.title != "About me") {
+          if (node.frontmatter.title !== "About me") {
             const title = node.frontmatter.title || node.fields.slug
             return ( 
                 <div

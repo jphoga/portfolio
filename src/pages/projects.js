@@ -36,7 +36,7 @@ class BlogIndex extends React.Component {
          A selection of projects I did at work and at the Le Wagon bootcamp 
         </p>
         {posts.map(({ node }) => {
-          if ((node.frontmatter.title != "About me") || (node.fields.slug != "/about/about_me/")) {
+          if ((node.frontmatter.title !== "About me") || (node.fields.slug !== "/about/about_me/")) {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <article key={node.fields.slug}>
