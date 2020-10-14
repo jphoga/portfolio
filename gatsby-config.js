@@ -2,22 +2,22 @@ module.exports = {
   siteMetadata: {
     title: `Jan's Portfolio`,
     author: `Jan Paul Hoga`,
-    description: `Hi, I am Jan. A German full-stack programmer and consultant living in Japan. 
+    description: `Hi, I am Jan. A German developer and consultant living in Japan. 
                   Follow me on my coding journey and see what life is like as a programmer in Tokyo.`,
     siteUrl: `https://google.com/`,
     project: `Jan's Projects`,
     social: {
       github: {
         link: `https://github.com/jphoga`,
-        icon: `fab fa-github-square`
+        icon: `fab fa-github-square`,
       },
       linkedin: {
-       link: `https://www.linkedin.com/in/jan-paul-hoga`,
-       icon: `fab fa-linkedin` 
+        link: `https://www.linkedin.com/in/jan-paul-hoga`,
+        icon: `fab fa-linkedin`,
       },
       email: {
-       link: `mailto:janpaulhoga@gmail.com`,
-       icon: `fas fa-at`
+        link: `mailto:janpaulhoga@gmail.com`,
+        icon: `fas fa-at`,
       },
     },
   },
@@ -105,12 +105,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+      resolve: "gatsby-plugin-webpack-bundle-analyzer",
       options: {
         production: true,
         disable: !process.env.ANALYZE_BUNDLE_SIZE,
         generateStatsFile: true,
-        analyzerMode: 'static',
+        analyzerMode: "static",
       },
     },
   ],
