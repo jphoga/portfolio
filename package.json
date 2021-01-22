@@ -54,7 +54,7 @@
     "typescript": "^4.1.3",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19",
-    "yargs-parser": "5.0.0-security.0"
+    "yargs-parser": "13.1.2"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
