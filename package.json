@@ -45,7 +45,7 @@
     "jpeg-js": "^0.4.1",
     "mem": "^5.1.1",
     "node-fetch": "2.6.1",
-    "node-forge": "0.10.0",
+    "node-forge": "1.0.0",
     "node-sass": "^4.14.1",
     "normalize-url": "4.5.1",
     "prismjs": "1.24.0",
