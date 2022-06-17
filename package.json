@@ -42,7 +42,7 @@
     "highlight.js": "10.4.1",
     "highlights": "^3.1.4",
     "is-svg": "4.2.2",
-    "jpeg-js": "^0.4.1",
+    "jpeg-js": "^0.4.4",
     "mem": "^5.1.1",
     "node-fetch": "2.6.1",
     "node-forge": "0.10.0",
